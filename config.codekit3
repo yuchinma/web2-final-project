@@ -729,8 +729,8 @@
 	"creationDate": 611451527.93182397,
 	"displayValue": "web2-final-project",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-rose",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "brackets-pink",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
