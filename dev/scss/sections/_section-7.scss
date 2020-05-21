@@ -1,0 +1,45 @@
+#section-7{
+    #title{
+        padding-top: 25px;
+        padding-left: 17px;
+    }
+
+    #section-7-container{
+        display: grid;
+        grid-template-columns: 43px auto 43px;
+        grid-template-areas: ". section-7-container .";
+
+        #section-7-content{
+            grid-area: section-7-container;
+        }
+
+        #indent{
+            padding-left: 48px;
+        }
+
+        .ellipse{
+            height: 40px;
+            width: 236px;
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+
+        #rounded-rec{
+            height: 205px;
+            width: 236px;
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+
+        #black-rec{
+            height: 30px;
+            width: 91px;
+            border-radius: 19px;
+            background-color: black;
+
+            h6{
+                color: white;
+            }
+        }
+    }
+}
