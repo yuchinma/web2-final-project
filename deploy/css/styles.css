@@ -365,6 +365,10 @@ hr {
   background-color: black;
 }
 
+.nospace {
+  font-size: 0;
+}
+
 /* =============
     Typography
 ============= */
@@ -441,5 +445,36 @@ textarea {
   padding-left: 45px;
 }
 #section-3 img {
+  width: 100%;
+}
+
+#section-4 #title {
+  padding-top: 25px;
+  padding-left: 17px;
+}
+#section-4 #section-4-content {
+  display: grid;
+  grid-template-columns: 27px auto 27px;
+  grid-template-areas: ". section-4-content .";
+}
+#section-4 #section-4-content #rules {
+  grid-area: section-4-content;
+}
+#section-4 #button {
+  display: grid;
+  grid-template-columns: 103px auto 103px;
+  grid-template-areas: ". butt .";
+}
+#section-4 #button #black-rec {
+  grid-area: butt;
+  height: 35px;
+  width: 144px;
+  border-radius: 8px;
+  background-color: black;
+}
+#section-4 #button #black-rec h4 {
+  color: white;
+}
+#section-4 img {
   width: 100%;
 }

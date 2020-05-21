@@ -1,0 +1,39 @@
+#section-4{
+    #title{
+        padding-top: 25px;
+        padding-left: 17px;
+    }
+
+    #section-4-content{
+        display: grid;
+        grid-template-columns: 27px auto 27px;
+        grid-template-areas: ". section-4-content .";
+        
+        #rules{
+            grid-area: section-4-content;
+        }
+    }
+
+    #button{
+        display: grid;
+        grid-template-columns: 103px auto 103px;
+        grid-template-areas: ". butt .";
+
+        #black-rec{
+            grid-area: butt;
+
+            height: 35px;
+            width: 144px;
+            border-radius: 8px;
+            background-color: black;
+    
+            h4{
+                color: white;
+            }
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+}
