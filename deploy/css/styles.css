@@ -407,6 +407,16 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: black;
+  height: 30px;
+}
+footer h6 {
+  color: white;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
 /* =============
     Section 1
 ============= */
