@@ -388,3 +388,6 @@ textarea {
 /* =============
     Section 1
 ============= */
+#section-1 img {
+  width: 100%;
+}
