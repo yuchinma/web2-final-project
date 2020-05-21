@@ -1,0 +1,21 @@
+#section-6{
+    #title{
+        padding-top: 25px;
+        padding-left: 17px;
+    }
+
+    #subtitle{
+        padding-top: 3px;
+        padding-left: 17px;
+    }
+
+    #section-6-content{
+        display: grid;
+        grid-template-columns: 27px auto 27px;
+        grid-template-areas: ". section-6-content .";
+        
+        #faq{
+            grid-area: section-6-content;
+        }
+    }
+}
