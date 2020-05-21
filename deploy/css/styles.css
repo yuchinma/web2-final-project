@@ -352,9 +352,20 @@ template {
 /* =============
     Base
 ============= */
+hr {
+  border: none;
+  height: 3px;
+  background-color: black;
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -390,4 +401,18 @@ textarea {
 ============= */
 #section-1 img {
   width: 100%;
+}
+#section-2 img {
+  width: 100%;
+}
+#section-2 #section-2-content {
+  display: grid;
+  grid-template-columns: 18.5px auto 18.5px;
+  grid-template-areas: ". section-2-content .";
+}
+#section-2 #section-2-content p {
+  grid-area: section-2-content;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }

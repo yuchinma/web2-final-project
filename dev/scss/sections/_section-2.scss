@@ -1,0 +1,20 @@
+#section-2{
+    img{
+        width: 100%;
+    }
+
+    #section-2-content{
+        display: grid;
+        grid-template-columns: 18.5px auto 18.5px;
+        grid-template-areas: ". section-2-content .";
+
+        p{
+            grid-area: section-2-content;
+            text-align: center;
+            padding-top: 27px;
+            padding-bottom: 27px;
+        }
+
+        // padding: 80px, 95px, 80px, 95px;
+    }
+}
