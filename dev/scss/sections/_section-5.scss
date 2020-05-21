@@ -1,0 +1,40 @@
+#section-5{
+    #title{
+        padding-top: 25px;
+        padding-left: 17px;
+    }
+
+    #section-5-content{
+       display: grid;
+       grid-template-columns: 58px auto 58px;
+       grid-template-areas: ". pics .";
+       row-gap: 31px;
+
+        #section-5-gallery{
+            grid-area: pics;
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
+    #button{
+        display: grid;
+        grid-template-columns: 99px auto 99px;
+        grid-template-areas: ". butt .";
+
+        #black-rec{
+            grid-area: butt;
+
+            height: 35px;
+            width: 121px;
+            border-radius: 8px;
+            background-color: black;
+    
+            h6{
+                color: white;
+            }
+        }
+    }
+}
