@@ -352,6 +352,13 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 hr {
   border: none;
   height: 3px;
@@ -415,4 +422,24 @@ textarea {
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
+}
+
+#section-3 #title {
+  padding-top: 25px;
+  padding-left: 17px;
+}
+#section-3 .subtitle {
+  padding-left: 41px;
+}
+#section-3 .categories {
+  padding-left: 54px;
+}
+#section-3 .details {
+  padding-left: 60px;
+}
+#section-3 #singup-form {
+  padding-left: 45px;
+}
+#section-3 img {
+  width: 100%;
 }
