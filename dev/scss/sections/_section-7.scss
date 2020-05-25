@@ -2,6 +2,11 @@
     #title{
         padding-top: 25px;
         padding-left: 17px;
+
+        @include md{
+            padding-top: 55px;
+            padding-left: 44px;
+        }
     }
 
     #section-7-container{
@@ -35,6 +40,11 @@
             width: 236px;
             border: 2px solid black;
             border-radius: 30px;
+
+            @include md{
+                height: 60px;
+                width: 556px;
+            }
         }
 
         #rounded-rec{
@@ -42,6 +52,12 @@
             width: 236px;
             border: 2px solid black;
             border-radius: 25px;
+
+            @include md{
+                height: 290px;
+                width: 556px;
+                border-radius: 30px;
+            }
         }
 
         #black-rec{
@@ -52,6 +68,11 @@
 
             h6{
                 color: white;
+            }
+
+            @include md{
+                height: 36px;
+                width: 114px;
             }
         }
     }

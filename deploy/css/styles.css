@@ -649,6 +649,12 @@ footer h6 {
   padding-top: 25px;
   padding-left: 17px;
 }
+@media (min-width: 768px) {
+  #section-7 #title {
+    padding-top: 55px;
+    padding-left: 44px;
+  }
+}
 #section-7 #section-7-container {
   display: grid;
   grid-template-columns: 15% auto 15%;
@@ -676,11 +682,24 @@ footer h6 {
   border: 2px solid black;
   border-radius: 30px;
 }
+@media (min-width: 768px) {
+  #section-7 #section-7-container .ellipse {
+    height: 60px;
+    width: 556px;
+  }
+}
 #section-7 #section-7-container #rounded-rec {
   height: 205px;
   width: 236px;
   border: 2px solid black;
   border-radius: 25px;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #rounded-rec {
+    height: 290px;
+    width: 556px;
+    border-radius: 30px;
+  }
 }
 #section-7 #section-7-container #black-rec {
   height: 30px;
@@ -690,4 +709,10 @@ footer h6 {
 }
 #section-7 #section-7-container #black-rec h6 {
   color: white;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #black-rec {
+    height: 36px;
+    width: 114px;
+  }
 }
