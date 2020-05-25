@@ -1,4 +1,8 @@
 #section-4{
+    // hr{
+    //     background-color: white;
+    // }
+
     #title{
         padding-top: 25px;
         padding-left: 17px;
@@ -16,7 +20,7 @@
 
     #button{
         display: grid;
-        grid-template-columns: 103px auto 103px;
+        grid-template-columns: auto 40% auto;
         grid-template-areas: ". butt .";
 
         #black-rec{

@@ -21,7 +21,7 @@
 
     #button{
         display: grid;
-        grid-template-columns: 99px auto 99px;
+        grid-template-columns: auto 30% auto;
         grid-template-areas: ". butt .";
 
         #black-rec{
