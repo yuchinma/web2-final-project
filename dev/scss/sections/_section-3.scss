@@ -6,6 +6,11 @@
     #title{
         padding-top: 25px;
         padding-left: 17px;
+
+        @include md{
+            padding-top: 55px;
+            padding-left: 44px;
+        }
     }
 
     .subtitle{
@@ -26,5 +31,32 @@
 
     img{
         width: 100%;
+    }
+
+    @include md{
+        #section-3-content{
+            display: grid;
+            grid-template-columns: 3% 47% 47% 3%;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: 
+            ". three five ."
+            ". shooting img .";
+    
+            #threeonthree{
+                grid-area: three;
+            }
+    
+            #fiveonfive{
+                grid-area: five;
+            }
+    
+            #shooting{
+                grid-area: shooting;
+            }
+    
+            img{
+                grid-area: img;
+            }
+        }
     }
 }

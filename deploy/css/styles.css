@@ -453,6 +453,12 @@ footer h6 {
   padding-top: 25px;
   padding-left: 17px;
 }
+@media (min-width: 768px) {
+  #section-3 #title {
+    padding-top: 55px;
+    padding-left: 44px;
+  }
+}
 #section-3 .subtitle {
   padding-left: 41px;
 }
@@ -467,6 +473,26 @@ footer h6 {
 }
 #section-3 img {
   width: 100%;
+}
+@media (min-width: 768px) {
+  #section-3 #section-3-content {
+    display: grid;
+    grid-template-columns: 3% 47% 47% 3%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: ". three five ." ". shooting img .";
+  }
+  #section-3 #section-3-content #threeonthree {
+    grid-area: three;
+  }
+  #section-3 #section-3-content #fiveonfive {
+    grid-area: five;
+  }
+  #section-3 #section-3-content #shooting {
+    grid-area: shooting;
+  }
+  #section-3 #section-3-content img {
+    grid-area: img;
+  }
 }
 
 #section-4 #title {
