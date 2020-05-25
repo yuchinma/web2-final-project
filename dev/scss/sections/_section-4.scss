@@ -6,6 +6,11 @@
     #title{
         padding-top: 25px;
         padding-left: 17px;
+
+        @include md{
+            padding-top: 55px;
+            padding-left: 44px;
+        }
     }
 
     #section-4-content{
@@ -15,6 +20,10 @@
         
         #rules{
             grid-area: section-4-content;
+        }
+
+        @include md{
+            grid-template-columns: 8% auto 8%;
         }
     }
 
@@ -34,6 +43,10 @@
             h4{
                 color: white;
             }
+        }
+
+        @include md{
+            
         }
     }
 

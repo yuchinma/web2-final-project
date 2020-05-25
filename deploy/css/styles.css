@@ -499,6 +499,12 @@ footer h6 {
   padding-top: 25px;
   padding-left: 17px;
 }
+@media (min-width: 768px) {
+  #section-4 #title {
+    padding-top: 55px;
+    padding-left: 44px;
+  }
+}
 #section-4 #section-4-content {
   display: grid;
   grid-template-columns: 27px auto 27px;
@@ -506,6 +512,11 @@ footer h6 {
 }
 #section-4 #section-4-content #rules {
   grid-area: section-4-content;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content {
+    grid-template-columns: 8% auto 8%;
+  }
 }
 #section-4 #button {
   display: grid;
