@@ -2,11 +2,20 @@
     #title{
         padding-top: 25px;
         padding-left: 17px;
+
+        @include md{
+            padding-top: 55px;
+            padding-left: 44px;
+        }
     }
 
     #subtitle{
         padding-top: 3px;
         padding-left: 17px;
+
+        @include md{
+            padding-left: 44px;
+        }
     }
 
     #section-6-content{
@@ -16,6 +25,10 @@
         
         #faq{
             grid-area: section-6-content;
+        }
+
+        @include md{
+            grid-template-columns: 8% auto 8%;
         }
     }
 
