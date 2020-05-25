@@ -431,11 +431,22 @@ footer h6 {
   grid-template-columns: 18.5px auto 18.5px;
   grid-template-areas: ". section-2-content .";
 }
+@media (min-width: 768px) {
+  #section-2 #section-2-content {
+    grid-template-columns: 96.5px auto 96.5px;
+  }
+}
 #section-2 #section-2-content p {
   grid-area: section-2-content;
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
+}
+@media (min-width: 768px) {
+  #section-2 #section-2-content p {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
 }
 
 #section-3 #title {

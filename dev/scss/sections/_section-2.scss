@@ -8,13 +8,20 @@
         grid-template-columns: 18.5px auto 18.5px;
         grid-template-areas: ". section-2-content .";
 
+        @include md{
+            grid-template-columns: 96.5px auto 96.5px;
+        }
+
         p{
             grid-area: section-2-content;
             text-align: center;
             padding-top: 27px;
             padding-bottom: 27px;
-        }
 
-        // padding: 80px, 95px, 80px, 95px;
+            @include md{
+                padding-top: 55px;
+                padding-bottom: 55px;
+            }
+        }
     }
 }
