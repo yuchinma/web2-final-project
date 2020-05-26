@@ -1,4 +1,12 @@
 #section-6{
+    #section-6-title{
+        @include md{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+        }
+    }
+
     #title{
         padding-top: 25px;
         padding-left: 17px;
@@ -14,7 +22,7 @@
         padding-left: 17px;
 
         @include md{
-            padding-left: 44px;
+            padding-left: 5px;
         }
     }
 

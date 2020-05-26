@@ -17,62 +17,65 @@
 
         #section-5-gallery{
             grid-area: pics;
+
+            @include md{
+                display: grid;
+                gap: 35px;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas: 
+                "g1 g2 g3"
+                "g4 g5 g6"
+                "g7 g8 btn";
+    
+                #gallery-1{
+                    grid-area: g1;
+                }
+                
+                #gallery-2{
+                    grid-area: g2;
+                }
+    
+                #gallery-3{
+                    grid-area: g3;
+                }
+    
+                #gallery-4{
+                    grid-area: g4;
+                }
+    
+                #gallery-5{
+                    grid-area: g5;
+                }
+    
+                #gallery-6{
+                    grid-area: g6;
+                }
+    
+                #gallery-7{
+                    grid-area: g7;
+                }
+    
+                #gallery-8{
+                    grid-area: g8;
+                }
+    
+                #button{
+                    grid-area: btn;
+                }
+            }
         }
 
         img{
             width: 100%;
         }
-
-        @include md{
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-template-areas: 
-            "g1 g2 g3"
-            "g4 g5 g6"
-            "g7 g8 btn";
-
-            #gallery-1{
-                grid-area: g1;
-            }
-            
-            #gallery-2{
-                grid-area: g2;
-            }
-
-            #gallery-3{
-                grid-area: g3;
-            }
-
-            #gallery-4{
-                grid-area: g4;
-            }
-
-            #gallery-5{
-                grid-area: g5;
-            }
-
-            #gallery-6{
-                grid-area: g6;
-            }
-
-            #gallery-7{
-                grid-area: g7;
-            }
-
-            #gallery-8{
-                grid-area: g8;
-            }
-
-            #button{
-                grid-area: btn;
-            }
-        }
     }
 
     #button{
         display: grid;
-        grid-template-columns: auto 30% auto;
+        grid-template-columns: auto 50% auto;
         grid-template-areas: ". butt .";
+        text-align: center;
 
         #black-rec{
             grid-area: butt;

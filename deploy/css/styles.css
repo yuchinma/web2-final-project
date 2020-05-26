@@ -363,6 +363,7 @@ hr {
   border: none;
   height: 3px;
   background-color: black;
+  margin: 0;
 }
 
 .nospace {
@@ -527,6 +528,7 @@ footer h6 {
   display: grid;
   grid-template-columns: auto 40% auto;
   grid-template-areas: ". butt .";
+  text-align: center;
 }
 #section-4 #button #black-rec {
   grid-area: butt;
@@ -561,47 +563,50 @@ footer h6 {
 #section-5 #section-5-content #section-5-gallery {
   grid-area: pics;
 }
-#section-5 #section-5-content img {
-  width: 100%;
-}
 @media (min-width: 768px) {
-  #section-5 #section-5-content {
+  #section-5 #section-5-content #section-5-gallery {
+    display: grid;
+    gap: 35px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "g1 g2 g3" "g4 g5 g6" "g7 g8 btn";
   }
-  #section-5 #section-5-content #gallery-1 {
+  #section-5 #section-5-content #section-5-gallery #gallery-1 {
     grid-area: g1;
   }
-  #section-5 #section-5-content #gallery-2 {
+  #section-5 #section-5-content #section-5-gallery #gallery-2 {
     grid-area: g2;
   }
-  #section-5 #section-5-content #gallery-3 {
+  #section-5 #section-5-content #section-5-gallery #gallery-3 {
     grid-area: g3;
   }
-  #section-5 #section-5-content #gallery-4 {
+  #section-5 #section-5-content #section-5-gallery #gallery-4 {
     grid-area: g4;
   }
-  #section-5 #section-5-content #gallery-5 {
+  #section-5 #section-5-content #section-5-gallery #gallery-5 {
     grid-area: g5;
   }
-  #section-5 #section-5-content #gallery-6 {
+  #section-5 #section-5-content #section-5-gallery #gallery-6 {
     grid-area: g6;
   }
-  #section-5 #section-5-content #gallery-7 {
+  #section-5 #section-5-content #section-5-gallery #gallery-7 {
     grid-area: g7;
   }
-  #section-5 #section-5-content #gallery-8 {
+  #section-5 #section-5-content #section-5-gallery #gallery-8 {
     grid-area: g8;
   }
-  #section-5 #section-5-content #button {
+  #section-5 #section-5-content #section-5-gallery #button {
     grid-area: btn;
   }
 }
+#section-5 #section-5-content img {
+  width: 100%;
+}
 #section-5 #button {
   display: grid;
-  grid-template-columns: auto 30% auto;
+  grid-template-columns: auto 50% auto;
   grid-template-areas: ". butt .";
+  text-align: center;
 }
 #section-5 #button #black-rec {
   grid-area: butt;
@@ -614,6 +619,13 @@ footer h6 {
   color: white;
 }
 
+@media (min-width: 768px) {
+  #section-6 #section-6-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
 #section-6 #title {
   padding-top: 25px;
   padding-left: 17px;
@@ -630,7 +642,7 @@ footer h6 {
 }
 @media (min-width: 768px) {
   #section-6 #subtitle {
-    padding-left: 44px;
+    padding-left: 5px;
   }
 }
 #section-6 #section-6-content {
@@ -686,6 +698,7 @@ footer h6 {
   width: 236px;
   border: 2px solid black;
   border-radius: 30px;
+  margin-bottom: 16.5px;
 }
 @media (min-width: 768px) {
   #section-7 #section-7-container .ellipse {
@@ -711,6 +724,8 @@ footer h6 {
   width: 91px;
   border-radius: 19px;
   background-color: black;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 #section-7 #section-7-container #black-rec h6 {
   color: white;
@@ -719,5 +734,7 @@ footer h6 {
   #section-7 #section-7-container #black-rec {
     height: 36px;
     width: 114px;
+    margin-top: 27px;
+    margin-bottom: 8px;
   }
 }
