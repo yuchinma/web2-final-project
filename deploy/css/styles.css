@@ -442,6 +442,11 @@ footer h6 {
     grid-template-columns: 96.5px auto 96.5px;
   }
 }
+@media (min-width: 992px) {
+  #section-2 #section-2-content {
+    grid-template-columns: 95.5px auto 95.5px;
+  }
+}
 #section-2 #section-2-content p {
   grid-area: section-2-content;
   text-align: center;
@@ -452,6 +457,12 @@ footer h6 {
   #section-2 #section-2-content p {
     padding-top: 55px;
     padding-bottom: 55px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 #section-2-content p {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 

@@ -12,6 +12,10 @@
             grid-template-columns: 96.5px auto 96.5px;
         }
 
+        @include lg{
+            grid-template-columns: 95.5px auto 95.5px;
+        }
+
         p{
             grid-area: section-2-content;
             text-align: center;
@@ -21,6 +25,11 @@
             @include md{
                 padding-top: 55px;
                 padding-bottom: 55px;
+            }
+
+            @include lg{
+                padding-top: 80px;
+                padding-bottom: 80px;
             }
         }
     }
