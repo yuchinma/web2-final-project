@@ -18,8 +18,22 @@
         grid-template-columns: 27px auto 27px;
         grid-template-areas: ". section-4-content .";
         
-        #rules{
+        #indent{
             grid-area: section-4-content;
+        }
+
+        #rules-container{
+            display: grid;
+            grid-template-columns: 5% auto;
+            grid-template-areas: "points rules";
+        }
+
+        #bullet{
+           grid-area: points;
+        }
+
+        #rules{
+            grid-area: rules;
         }
 
         @include md{

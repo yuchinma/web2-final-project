@@ -516,8 +516,19 @@ footer h6 {
   grid-template-columns: 27px auto 27px;
   grid-template-areas: ". section-4-content .";
 }
-#section-4 #section-4-content #rules {
+#section-4 #section-4-content #indent {
   grid-area: section-4-content;
+}
+#section-4 #section-4-content #rules-container {
+  display: grid;
+  grid-template-columns: 5% auto;
+  grid-template-areas: "points rules";
+}
+#section-4 #section-4-content #bullet {
+  grid-area: points;
+}
+#section-4 #section-4-content #rules {
+  grid-area: rules;
 }
 @media (min-width: 768px) {
   #section-4 #section-4-content {
