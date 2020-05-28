@@ -11,6 +11,11 @@
             padding-top: 55px;
             padding-left: 44px;
         }
+
+        @include lg{
+            padding-top: 75px;
+            padding-left: 40px;
+        }
     }
 
     .subtitle{

@@ -476,6 +476,12 @@ footer h6 {
     padding-left: 44px;
   }
 }
+@media (min-width: 992px) {
+  #section-3 #title {
+    padding-top: 75px;
+    padding-left: 40px;
+  }
+}
 #section-3 .subtitle {
   padding-left: 41px;
 }
