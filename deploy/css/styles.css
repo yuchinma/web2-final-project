@@ -528,6 +528,12 @@ footer h6 {
     padding-left: 44px;
   }
 }
+@media (min-width: 992px) {
+  #section-4 #title {
+    padding-top: 75px;
+    padding-left: 40px;
+  }
+}
 #section-4 #section-4-content {
   display: grid;
   grid-template-columns: 27px auto 27px;
@@ -540,6 +546,11 @@ footer h6 {
   display: grid;
   grid-template-columns: 5% auto;
   grid-template-areas: "points rules";
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container {
+    grid-template-columns: 2% auto;
+  }
 }
 #section-4 #section-4-content #bullet {
   grid-area: points;

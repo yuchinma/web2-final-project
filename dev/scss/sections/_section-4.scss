@@ -11,6 +11,11 @@
             padding-top: 55px;
             padding-left: 44px;
         }
+
+        @include lg{
+            padding-top: 75px;
+            padding-left: 40px;
+        }
     }
 
     #section-4-content{
@@ -26,6 +31,10 @@
             display: grid;
             grid-template-columns: 5% auto;
             grid-template-areas: "points rules";
+
+            @include md{
+                grid-template-columns: 2% auto;
+            }
         }
 
         #bullet{
