@@ -31,8 +31,22 @@
         grid-template-columns: 27px auto 27px;
         grid-template-areas: ". section-6-content .";
         
-        #faq{
+        #indent{
             grid-area: section-6-content;
+        }
+
+        #faq{
+            display: grid;
+            grid-template-columns: 5% auto;
+            grid-template-areas: "qanda answer";
+        }
+
+        #qa{
+            grid-area: qanda;
+        }
+
+        #asn{
+            grid-area: answer;
         }
 
         @include md{
