@@ -378,6 +378,31 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+h1, h3, h5 {
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+}
+
+h4 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+}
+
+li {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+}
+
 /* =============
     Buttons
 ============= */
