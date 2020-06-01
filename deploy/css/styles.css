@@ -555,6 +555,9 @@ footer h6 {
   }
 }
 
+#section-3 hr {
+  background-color: white;
+}
 #section-3 #title {
   font-size: 1.375rem;
   padding-top: 25px;
@@ -659,6 +662,9 @@ footer h6 {
   }
 }
 
+#section-4 hr {
+  background-color: white;
+}
 #section-4 #title {
   padding-top: 25px;
   padding-left: 17px;
@@ -716,9 +722,6 @@ footer h6 {
   width: 144px;
   border-radius: 8px;
   background-color: black;
-}
-#section-4 #button #black-rec h4 {
-  color: white;
 }
 #section-4 img {
   width: 100%;
@@ -798,10 +801,6 @@ footer h6 {
   border-radius: 8px;
   background-color: black;
 }
-#section-5 #button #black-rec h6 {
-  color: white;
-}
-
 @media (min-width: 768px) {
   #section-6 #section-6-title {
     display: flex;
@@ -920,9 +919,6 @@ footer h6 {
   background-color: black;
   margin-top: 20px;
   margin-bottom: 5px;
-}
-#section-7 #section-7-container #black-rec h6 {
-  color: white;
 }
 @media (min-width: 768px) {
   #section-7 #section-7-container #black-rec {
