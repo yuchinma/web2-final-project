@@ -57,6 +57,14 @@
 
         #indent{
             padding-left: 48px;
+
+            @include md{
+                padding-left: 70px;
+            }
+
+            @include lg{
+                padding-left: 83px;
+            }
         }
 
         .ellipse{

@@ -6,12 +6,24 @@ footer{
     height: 30px;
 
     h6{
-        color: white;
+        font-size: rem-calc(6);
         padding-top: 3%;
         padding-left: 3%;
+
+        @include md{
+            font-size: rem-calc(13);
+        }
+
+        @include lg{
+            font-size: rem-calc(20);
+        }
     }
 
     @include md{
         height: 63px;
+    }
+
+    @include md{
+        height: 85px;
     }
 }
