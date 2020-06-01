@@ -451,9 +451,59 @@ footer h6 {
 /* =============
     Section 1
 ============= */
-#section-1 img {
-  width: 100%;
+#section-1 #section-1-content {
+  background-image: url("../img/section-1/hero.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  padding-top: 30px;
 }
+@media (min-width: 768px) {
+  #section-1 #section-1-content {
+    height: 500px;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 #section-1-content {
+    height: 750px;
+  }
+}
+#section-1 #section-1-content h1 {
+  font-size: 1.375rem;
+  color: white;
+}
+@media (min-width: 768px) {
+  #section-1 #section-1-content h1 {
+    font-size: 3.375rem;
+    padding-top: 55px;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 #section-1-content h1 {
+    font-size: 4.5rem;
+    padding-top: 50px;
+  }
+}
+#section-1 #section-1-content h5 {
+  font-size: 0.625rem;
+  color: white;
+  padding-left: 32%;
+  padding-right: 32%;
+}
+@media (min-width: 768px) {
+  #section-1 #section-1-content h5 {
+    font-size: 1.375rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 992px) {
+  #section-1 #section-1-content h5 {
+    font-size: 1.875rem;
+  }
+}
+
 #section-2 img {
   width: 100%;
 }
