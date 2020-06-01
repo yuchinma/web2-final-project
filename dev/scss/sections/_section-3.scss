@@ -4,34 +4,78 @@
     // }
 
     #title{
+        font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
+        margin-bottom: 22px;
 
         @include md{
+            font-size: rem-calc(38);
             padding-top: 55px;
             padding-left: 44px;
+            margin-bottom: 33px;
         }
 
         @include lg{
+            font-size: rem-calc(45);
             padding-top: 75px;
             padding-left: 40px;
+            margin-bottom: 55px;
         }
     }
 
     .subtitle{
+        font-size: rem-calc(18);
         padding-left: 41px;
+
+        @include md{
+            font-size: rem-calc(28);
+        }
+
+        @include lg{
+            font-size: rem-calc(35);
+        }
     }
 
     .categories{
+        font-size: rem-calc(16);
+        line-height: normal;
         padding-left: 54px;
+
+        @include md{
+            font-size: rem-calc(23);
+        }
+
+        @include lg{
+            font-size: rem-calc(28);
+        }
     }
 
     .details{
+        font-size: rem-calc(16);
+        line-height: normal;
         padding-left: 60px;
+
+        @include md{
+            font-size: rem-calc(23);
+        }
+
+        @include lg{
+            font-size: rem-calc(28);
+        }
     }
 
     #singup-form{
         padding-left: 45px;
+        font-size: rem-calc(16);
+
+        @include md{
+            font-size: rem-calc(20);
+        }
+
+        @include lg{
+            font-size: rem-calc(25);
+        }
     }
 
     img{

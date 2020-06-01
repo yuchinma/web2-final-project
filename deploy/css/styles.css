@@ -353,7 +353,7 @@ template {
     Base
 ============= */
 body {
-  background-color: #dddddd;
+  background-color: #3a6397;
 }
 
 ul {
@@ -556,32 +556,84 @@ footer h6 {
 }
 
 #section-3 #title {
+  font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
+  margin-bottom: 22px;
 }
 @media (min-width: 768px) {
   #section-3 #title {
+    font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
+    margin-bottom: 33px;
   }
 }
 @media (min-width: 992px) {
   #section-3 #title {
+    font-size: 2.8125rem;
     padding-top: 75px;
     padding-left: 40px;
+    margin-bottom: 55px;
   }
 }
 #section-3 .subtitle {
+  font-size: 1.125rem;
   padding-left: 41px;
 }
+@media (min-width: 768px) {
+  #section-3 .subtitle {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 .subtitle {
+    font-size: 2.1875rem;
+  }
+}
 #section-3 .categories {
+  font-size: 1rem;
+  line-height: normal;
   padding-left: 54px;
 }
+@media (min-width: 768px) {
+  #section-3 .categories {
+    font-size: 1.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 .categories {
+    font-size: 1.75rem;
+  }
+}
 #section-3 .details {
+  font-size: 1rem;
+  line-height: normal;
   padding-left: 60px;
+}
+@media (min-width: 768px) {
+  #section-3 .details {
+    font-size: 1.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 .details {
+    font-size: 1.75rem;
+  }
 }
 #section-3 #singup-form {
   padding-left: 45px;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #section-3 #singup-form {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 #singup-form {
+    font-size: 1.5625rem;
+  }
 }
 #section-3 img {
   width: 100%;
