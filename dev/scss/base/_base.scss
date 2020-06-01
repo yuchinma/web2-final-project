@@ -1,6 +1,10 @@
 /* =============
     Base
 ============= */
+body{
+    background-color: rgb(221, 221, 221);
+}
+
 ul{
     padding: 0;
 
@@ -19,3 +23,11 @@ hr{
 .nospace {
     font-size: 0;
  }
+
+.white-text{
+    color: white;
+}
+
+.black-text{
+    color: black;
+}

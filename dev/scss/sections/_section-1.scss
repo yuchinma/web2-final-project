@@ -22,8 +22,7 @@
 
         h1{
             font-size: rem-calc(22);
-            color: white;
-         
+
             @include md{
                 font-size: rem-calc(54);
                 padding-top: 55px;
@@ -37,7 +36,6 @@
         
         h5{
             font-size: rem-calc(10);
-            color: white;
             padding-left: 32%;
             padding-right: 32%;
 
