@@ -19,15 +19,19 @@
         p{
             grid-area: section-2-content;
             text-align: center;
+            font-size: rem-calc(16);
+            line-height: normal;
             padding-top: 27px;
             padding-bottom: 27px;
 
             @include md{
+                font-size: rem-calc(28);
                 padding-top: 55px;
                 padding-bottom: 55px;
             }
 
             @include lg{
+                font-size: rem-calc(40);
                 padding-top: 80px;
                 padding-bottom: 80px;
             }
