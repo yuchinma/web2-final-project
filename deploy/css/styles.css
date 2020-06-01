@@ -587,11 +587,13 @@ footer h6 {
 @media (min-width: 768px) {
   #section-3 .subtitle {
     font-size: 1.75rem;
+    padding-left: 45px;
   }
 }
 @media (min-width: 992px) {
   #section-3 .subtitle {
     font-size: 2.1875rem;
+    padding-left: 75px;
   }
 }
 #section-3 .categories {
@@ -602,11 +604,13 @@ footer h6 {
 @media (min-width: 768px) {
   #section-3 .categories {
     font-size: 1.4375rem;
+    padding-left: 66px;
   }
 }
 @media (min-width: 992px) {
   #section-3 .categories {
     font-size: 1.75rem;
+    padding-left: 110px;
   }
 }
 #section-3 .details {
@@ -617,11 +621,13 @@ footer h6 {
 @media (min-width: 768px) {
   #section-3 .details {
     font-size: 1.4375rem;
+    padding-left: 80px;
   }
 }
 @media (min-width: 992px) {
   #section-3 .details {
     font-size: 1.75rem;
+    padding-left: 125px;
   }
 }
 #section-3 #singup-form {
@@ -644,7 +650,7 @@ footer h6 {
 @media (min-width: 768px) {
   #section-3 #section-3-content {
     display: grid;
-    grid-template-columns: 3% 47% 47% 3%;
+    grid-template-columns: 2% 46% 46% 6%;
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: ". three five ." ". shooting img .";
   }
@@ -666,17 +672,20 @@ footer h6 {
   background-color: white;
 }
 #section-4 #title {
+  font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
 }
 @media (min-width: 768px) {
   #section-4 #title {
+    font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
   }
 }
 @media (min-width: 992px) {
   #section-4 #title {
+    font-size: 2.8125rem;
     padding-top: 75px;
     padding-left: 40px;
   }
@@ -693,10 +702,18 @@ footer h6 {
   display: grid;
   grid-template-columns: 5% auto;
   grid-template-areas: "points rules";
+  font-size: 1rem;
+  line-height: normal;
 }
 @media (min-width: 768px) {
   #section-4 #section-4-content #rules-container {
     grid-template-columns: 2% auto;
+    font-size: 1.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-4 #section-4-content #rules-container {
+    font-size: 1.75rem;
   }
 }
 #section-4 #section-4-content #bullet {
