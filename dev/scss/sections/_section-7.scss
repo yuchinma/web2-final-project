@@ -1,11 +1,17 @@
 #section-7{
     #title{
+        font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
 
         @include md{
+            font-size: rem-calc(38);
             padding-top: 55px;
             padding-left: 44px;
+        }
+
+        @include lg{
+            font-size: rem-calc(45);
         }
     }
 
@@ -16,10 +22,28 @@
 
         #section-7-content{
             grid-area: section-7-container;
+            font-size: rem-calc(16);
+
+            @include md{
+                font-size: rem-calc(23);
+            }
+
+            @include lg{
+                font-size: rem-calc(28);
+            }
 
             #section-7-contact{
                 display: flex;
                 flex-direction: column;
+                font-size: rem-calc(13);
+
+                @include md{
+                    font-size: rem-calc(18);
+                }
+
+                @include lg{
+                    font-size: rem-calc(20);
+                }
 
                 #black-rec{
                     align-self: flex-end;
@@ -42,6 +66,16 @@
             border-radius: 30px;
             margin-bottom: 16.5px;
 
+            h6{
+                padding-top: 6%;
+                padding-left: 5%;
+
+                @include md{
+                    padding-top: 4%;
+                    padding-left: 3%;
+                }
+            }
+
             @include md{
                 height: 60px;
                 width: 556px;
@@ -53,6 +87,16 @@
             width: 236px;
             border: 2px solid black;
             border-radius: 25px;
+
+            h6{
+                padding-top: 6%;
+                padding-left: 5%;
+
+                @include md{
+                    padding-top: 4%;
+                    padding-left: 3%;
+                }
+            }
 
             @include md{
                 height: 290px;
@@ -70,7 +114,16 @@
             margin-bottom: 5px;
 
             h6{
-                // color: white;
+                font-size: rem-calc(15);
+                text-align: center;
+
+                @include md{
+                    font-size: rem-calc(20);
+                }
+
+                @include lg{
+                    font-size: rem-calc(22);
+                }
             }
 
             @include md{

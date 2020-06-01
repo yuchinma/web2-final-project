@@ -934,13 +934,20 @@ footer h6 {
 }
 
 #section-7 #title {
+  font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
 }
 @media (min-width: 768px) {
   #section-7 #title {
+    font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #title {
+    font-size: 2.8125rem;
   }
 }
 #section-7 #section-7-container {
@@ -950,10 +957,32 @@ footer h6 {
 }
 #section-7 #section-7-container #section-7-content {
   grid-area: section-7-container;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #section-7-content {
+    font-size: 1.4375rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #section-7-container #section-7-content {
+    font-size: 1.75rem;
+  }
 }
 #section-7 #section-7-container #section-7-content #section-7-contact {
   display: flex;
   flex-direction: column;
+  font-size: 0.8125rem;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #section-7-content #section-7-contact {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #section-7-container #section-7-content #section-7-contact {
+    font-size: 1.25rem;
+  }
 }
 #section-7 #section-7-container #section-7-content #section-7-contact #black-rec {
   align-self: flex-end;
@@ -971,6 +1000,16 @@ footer h6 {
   border-radius: 30px;
   margin-bottom: 16.5px;
 }
+#section-7 #section-7-container .ellipse h6 {
+  padding-top: 6%;
+  padding-left: 5%;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container .ellipse h6 {
+    padding-top: 4%;
+    padding-left: 3%;
+  }
+}
 @media (min-width: 768px) {
   #section-7 #section-7-container .ellipse {
     height: 60px;
@@ -982,6 +1021,16 @@ footer h6 {
   width: 236px;
   border: 2px solid black;
   border-radius: 25px;
+}
+#section-7 #section-7-container #rounded-rec h6 {
+  padding-top: 6%;
+  padding-left: 5%;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #rounded-rec h6 {
+    padding-top: 4%;
+    padding-left: 3%;
+  }
 }
 @media (min-width: 768px) {
   #section-7 #section-7-container #rounded-rec {
@@ -997,6 +1046,20 @@ footer h6 {
   background-color: black;
   margin-top: 20px;
   margin-bottom: 5px;
+}
+#section-7 #section-7-container #black-rec h6 {
+  font-size: 0.9375rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #black-rec h6 {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #section-7-container #black-rec h6 {
+    font-size: 1.375rem;
+  }
 }
 @media (min-width: 768px) {
   #section-7 #section-7-container #black-rec {
