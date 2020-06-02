@@ -21,14 +21,13 @@
        display: grid;
        grid-template-columns: 58px auto 58px;
        grid-template-areas: ". pics .";
-       row-gap: 31px;
 
         #section-5-gallery{
             grid-area: pics;
+            display: grid;
+            gap: 35px;
 
             @include md{
-                display: grid;
-                gap: 35px;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
                 grid-template-areas: 
@@ -95,6 +94,7 @@
             width: 121px;
             border-radius: 8px;
             background-color: black;
+            margin: 0 auto;
 
             @include md{
                 height: 48px;

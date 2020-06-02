@@ -51,12 +51,14 @@
             display: grid;
             grid-template-columns: 5% auto;
             grid-template-areas: "qanda answer";
+            column-gap: 5px;
 
             font-size: rem-calc(16);
             line-height: normal;
 
             @include md{
                 font-size: rem-calc(23);
+                column-gap: 0;
             }
 
             @include lg{

@@ -754,6 +754,7 @@ footer h6 {
   width: 144px;
   border-radius: 8px;
   background-color: black;
+  margin: 0 auto;
 }
 #section-4 img {
   width: 100%;
@@ -782,15 +783,14 @@ footer h6 {
   display: grid;
   grid-template-columns: 58px auto 58px;
   grid-template-areas: ". pics .";
-  row-gap: 31px;
 }
 #section-5 #section-5-content #section-5-gallery {
   grid-area: pics;
+  display: grid;
+  gap: 35px;
 }
 @media (min-width: 768px) {
   #section-5 #section-5-content #section-5-gallery {
-    display: grid;
-    gap: 35px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "g1 g2 g3" "g4 g5 g6" "g7 g8 btn";
@@ -841,6 +841,7 @@ footer h6 {
   width: 121px;
   border-radius: 8px;
   background-color: black;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   #section-5 #button #black-rec {
@@ -920,12 +921,14 @@ footer h6 {
   display: grid;
   grid-template-columns: 5% auto;
   grid-template-areas: "qanda answer";
+  column-gap: 5px;
   font-size: 1rem;
   line-height: normal;
 }
 @media (min-width: 768px) {
   #section-6 #section-6-content #faq {
     font-size: 1.4375rem;
+    column-gap: 0;
   }
 }
 @media (min-width: 992px) {
