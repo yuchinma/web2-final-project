@@ -448,6 +448,7 @@ textarea {
 footer {
   background-color: black;
   height: 30px;
+  margin-top: 37px;
 }
 footer h6 {
   font-size: 0.375rem;
@@ -467,6 +468,7 @@ footer h6 {
 @media (min-width: 768px) {
   footer {
     height: 63px;
+    margin-top: 78px;
   }
 }
 @media (min-width: 768px) {
@@ -1052,6 +1054,7 @@ footer h6 {
 #section-7 #section-7-container #section-7-content {
   grid-area: section-7-container;
   font-size: 1rem;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   #section-7 #section-7-container #section-7-content {
@@ -1171,5 +1174,22 @@ footer h6 {
     width: 114px;
     margin-top: 27px;
     margin-bottom: 8px;
+  }
+}
+#section-7 #section-7-container #social-media {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 21px 0 21px;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #social-media {
+    width: 220px;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #section-7-container #social-media {
+    width: 250px;
   }
 }

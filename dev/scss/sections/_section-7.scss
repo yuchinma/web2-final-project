@@ -23,6 +23,7 @@
         #section-7-content{
             grid-area: section-7-container;
             font-size: rem-calc(16);
+            margin: 0 auto;
 
             @include md{
                 font-size: rem-calc(23);
@@ -139,6 +140,22 @@
                 width: 114px;
                 margin-top: 27px;
                 margin-bottom: 8px;
+            }
+        }
+
+        #social-media{
+            width: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 21px 0 21px;
+
+            @include md{
+                width: 220px;
+            }
+
+            @include lg{
+                width: 250px;
             }
         }
     }
