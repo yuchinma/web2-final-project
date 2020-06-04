@@ -1,6 +1,9 @@
 #section-4{
     hr{
         background-color: white;
+        @include md{
+            margin-top: 90px;
+        }
     }
 
     #title{
