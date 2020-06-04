@@ -74,6 +74,15 @@
                     align-items: center;
                 }
             }
+
+            @include lg{
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: "auto auto 12.5%";
+                grid-template-areas: 
+                "g1 g2 g3 g4"
+                "g5 g6 g7 g8"
+                ". . . btn";
+            }
         }
 
         img{
@@ -102,8 +111,8 @@
             }
 
             @include lg{
-                height: 58px;
-                width: 204px;
+                height: 65px;
+                width: 264px;
             }
     
             h6{
@@ -114,7 +123,7 @@
                 }
 
                 @include lg{
-                    font-size: rem-calc(21);
+                    font-size: rem-calc(23);
                 }
             }
         }

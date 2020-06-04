@@ -826,6 +826,13 @@ footer h6 {
     align-items: center;
   }
 }
+@media (min-width: 992px) {
+  #section-5 #section-5-content #section-5-gallery {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: "auto auto 12.5%";
+    grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" ". . . btn";
+  }
+}
 #section-5 #section-5-content img {
   width: 100%;
 }
@@ -851,8 +858,8 @@ footer h6 {
 }
 @media (min-width: 992px) {
   #section-5 #button #black-rec {
-    height: 58px;
-    width: 204px;
+    height: 65px;
+    width: 264px;
   }
 }
 #section-5 #button #black-rec h6 {
@@ -865,7 +872,7 @@ footer h6 {
 }
 @media (min-width: 992px) {
   #section-5 #button #black-rec h6 {
-    font-size: 1.3125rem;
+    font-size: 1.4375rem;
   }
 }
 
