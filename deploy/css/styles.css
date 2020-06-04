@@ -932,6 +932,19 @@ footer h6 {
   }
 }
 
+#section-6 hr {
+  margin-top: 48px;
+}
+@media (min-width: 768px) {
+  #section-6 hr {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 992px) {
+  #section-6 hr {
+    margin-top: 90px;
+  }
+}
 @media (min-width: 768px) {
   #section-6 #section-6-title {
     display: flex;

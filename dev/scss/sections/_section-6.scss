@@ -1,4 +1,16 @@
 #section-6{
+    hr{
+        margin-top: 48px;
+
+        @include md{
+            margin-top: 100px;
+        }
+
+        @include lg{
+            margin-top: 90px;
+        }
+    }
+
     #section-6-title{
         @include md{
             display: flex;
