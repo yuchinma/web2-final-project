@@ -68,23 +68,37 @@
         grid-template-columns: auto 40% auto;
         grid-template-areas: ". butt .";
         text-align: center;
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+        @include md{
+            margin-top: 36px;
+            margin-bottom: 70px;
+        }
 
         #black-rec{
             grid-area: butt;
-
             height: 35px;
             width: 144px;
             border-radius: 8px;
             background-color: black;
             margin: 0 auto;
-    
-            h5{
-                // color: white;
-            }
         }
+    }
 
+    #section-4-images{
         @include md{
-            
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "img-1 img-2";
+
+            #img-1{
+                grid-area: img-1;
+            }
+
+            #img-2{
+                grid-area: img-2;
+            }
         }
     }
 
