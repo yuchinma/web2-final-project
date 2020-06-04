@@ -458,11 +458,13 @@ footer h6 {
 @media (min-width: 768px) {
   footer h6 {
     font-size: 0.8125rem;
+    padding-top: 4.5%;
   }
 }
 @media (min-width: 992px) {
   footer h6 {
     font-size: 1.25rem;
+    padding-top: 2.5%;
   }
 }
 @media (min-width: 768px) {
