@@ -83,6 +83,28 @@
             border-radius: 8px;
             background-color: black;
             margin: 0 auto;
+
+            @include md{
+                height: 57px;
+                width: 215px;
+            }
+
+            @include lg{
+                height: 71px;
+                width: 267px;
+            }
+
+            h5{
+                font-size: rem-calc(13);
+
+                @include md{
+                    font-size: rem-calc(23);
+                }
+
+                @include lg{
+                    font-size: rem-calc(28);
+                }
+            }
         }
     }
 
