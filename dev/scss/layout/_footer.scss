@@ -6,28 +6,29 @@ footer{
     height: 30px;
     margin-top: 37px;
 
-    h6{
-        font-size: rem-calc(6);
-        padding-top: 3%;
-        padding-left: 3%;
-
-        @include md{
-            font-size: rem-calc(13);
-            padding-top: 4.5%;
-        }
-
-        @include lg{
-            font-size: rem-calc(20);
-            padding-top: 2.5%;
-        }
-    }
-
     @include md{
-        height: 63px;
+        height: 60px;
         margin-top: 78px;
     }
 
     @include md{
-        height: 85px;
+        height: 65px;
+    }
+
+    h6{
+        font-size: rem-calc(6);
+        text-justify: center;
+        line-height: 30px; 
+        padding-left: 3%;
+
+        @include md{
+            font-size: rem-calc(13);
+            line-height: 60px; 
+        }
+
+        @include lg{
+            font-size: rem-calc(15);
+            line-height: 65px; 
+        }
     }
 }
