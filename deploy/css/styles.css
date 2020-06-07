@@ -471,6 +471,12 @@ header > div {
     grid-template-columns: 17% auto 13%;
   }
 }
+@media (min-width: 992px) {
+  header > div {
+    grid-template-columns: 8% 30% auto;
+    grid-template-areas: "logo title nav";
+  }
+}
 header > div #logo-container {
   grid-area: logo;
   padding-top: 6px;
@@ -490,6 +496,12 @@ header > div #logo-container #logo {
   header > div #logo-container #logo {
     height: 90px;
     width: 90px;
+  }
+}
+@media (min-width: 768px) {
+  header > div #logo-container #logo {
+    height: 80px;
+    width: 80px;
   }
 }
 header > div #title {
@@ -559,8 +571,8 @@ header > div #burger-container i {
   cursor: pointer;
 }
 header > div #nav-container {
-  background-color: grey;
   grid-area: nav;
+  background-color: grey;
   display: none;
   padding: 20px;
 }

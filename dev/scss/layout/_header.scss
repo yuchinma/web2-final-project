@@ -28,6 +28,11 @@ header{
             grid-template-columns: 17% auto 13%;
         }
 
+        @include lg{
+            grid-template-columns: 8% 30% auto;
+            grid-template-areas: "logo title nav";
+        }
+
         // @include lg {
         //     grid-template-columns: 20% auto;
         //     grid-template-areas: "logo nav";
@@ -50,6 +55,11 @@ header{
                 @include md{
                     height: 90px;
                     width: 90px;
+                }
+
+                @include md{
+                    height: 80px;
+                    width: 80px;
                 }
             }
         }
@@ -119,8 +129,8 @@ header{
         }
 
         #nav-container {
-            background-color: grey;
             grid-area: nav;
+            background-color: grey;
             display: none;
             padding: 20px;
 
