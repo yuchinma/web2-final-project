@@ -468,7 +468,7 @@ header > div {
 }
 @media (min-width: 768px) {
   header > div {
-    grid-template-columns: 17% auto 13%;
+    grid-template-columns: 15% auto 13%;
   }
 }
 @media (min-width: 992px) {
@@ -486,6 +486,11 @@ header > div #logo-container {
   header > div #logo-container {
     padding-top: 18px;
     padding-left: 18px;
+  }
+}
+@media (min-width: 992px) {
+  header > div #logo-container {
+    padding-top: 23px;
   }
 }
 header > div #logo-container #logo {
@@ -511,6 +516,12 @@ header > div #title {
 @media (min-width: 768px) {
   header > div #title {
     padding-top: 22px;
+  }
+}
+@media (min-width: 992px) {
+  header > div #title {
+    padding-top: 15px;
+    padding-left: 15px;
   }
 }
 header > div #title h1 {

@@ -25,7 +25,7 @@ header{
         "nav nav nav";
 
         @include md{
-            grid-template-columns: 17% auto 13%;
+            grid-template-columns: 15% auto 13%;
         }
 
         @include lg{
@@ -46,6 +46,10 @@ header{
             @include md{
                 padding-top: 18px;
                 padding-left: 18px;
+            }
+
+            @include lg{
+                padding-top: 23px;
             }
 
             #logo{
@@ -70,6 +74,11 @@ header{
 
             @include md{
                 padding-top: 22px;
+            }
+
+            @include lg{
+                padding-top: 15px;
+                padding-left: 15px;
             }
             
             h1{
