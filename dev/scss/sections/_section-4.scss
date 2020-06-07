@@ -94,15 +94,19 @@
                 width: 267px;
             }
 
-            h5{
-                font-size: rem-calc(13);
+            h6{
+                font-size: rem-calc(14);
+                text-align: center;
+                line-height: 35px;
 
                 @include md{
                     font-size: rem-calc(23);
+                    line-height: 57px;
                 }
 
                 @include lg{
                     font-size: rem-calc(28);
+                    line-height: 71px;
                 }
             }
         }

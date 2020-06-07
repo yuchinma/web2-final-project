@@ -117,13 +117,17 @@
     
             h6{
                 font-size: rem-calc(13);
+                text-align: center;
+                line-height: 35px;
 
                 @include md{
                     font-size: rem-calc(17);
+                    line-height: 48px;
                 }
 
                 @include lg{
-                    font-size: rem-calc(23);
+                    font-size: rem-calc(25);
+                    line-height: 65px;
                 }
             }
         }

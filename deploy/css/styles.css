@@ -948,17 +948,21 @@ footer h6 {
     width: 267px;
   }
 }
-#section-4 #button #black-rec h5 {
-  font-size: 0.8125rem;
+#section-4 #button #black-rec h6 {
+  font-size: 0.875rem;
+  text-align: center;
+  line-height: 35px;
 }
 @media (min-width: 768px) {
-  #section-4 #button #black-rec h5 {
+  #section-4 #button #black-rec h6 {
     font-size: 1.4375rem;
+    line-height: 57px;
   }
 }
 @media (min-width: 992px) {
-  #section-4 #button #black-rec h5 {
+  #section-4 #button #black-rec h6 {
     font-size: 1.75rem;
+    line-height: 71px;
   }
 }
 @media (min-width: 768px) {
@@ -1082,15 +1086,19 @@ footer h6 {
 }
 #section-5 #button #black-rec h6 {
   font-size: 0.8125rem;
+  text-align: center;
+  line-height: 35px;
 }
 @media (min-width: 768px) {
   #section-5 #button #black-rec h6 {
     font-size: 1.0625rem;
+    line-height: 48px;
   }
 }
 @media (min-width: 992px) {
   #section-5 #button #black-rec h6 {
-    font-size: 1.4375rem;
+    font-size: 1.5625rem;
+    line-height: 65px;
   }
 }
 
@@ -1188,6 +1196,17 @@ footer h6 {
 #section-6 img {
   display: block;
   width: 100%;
+  margin-top: 15px;
+}
+@media (min-width: 768px) {
+  #section-6 img {
+    margin-top: 35px;
+  }
+}
+@media (min-width: 768px) {
+  #section-6 img {
+    margin-top: 65px;
+  }
 }
 
 #section-7 #title {
@@ -1315,26 +1334,28 @@ footer h6 {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-#section-7 #section-7-container #black-rec h6 {
-  font-size: 0.9375rem;
-  text-align: center;
-}
-@media (min-width: 768px) {
-  #section-7 #section-7-container #black-rec h6 {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 992px) {
-  #section-7 #section-7-container #black-rec h6 {
-    font-size: 1.375rem;
-  }
-}
 @media (min-width: 768px) {
   #section-7 #section-7-container #black-rec {
     height: 36px;
     width: 114px;
     margin-top: 27px;
     margin-bottom: 8px;
+  }
+}
+#section-7 #section-7-container #black-rec h6 {
+  font-size: 0.9375rem;
+  text-align: center;
+  line-height: 30px;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #black-rec h6 {
+    font-size: 1.25rem;
+    line-height: 36px;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #section-7-container #black-rec h6 {
+    font-size: 1.375rem;
   }
 }
 #section-7 #section-7-container #social-media {

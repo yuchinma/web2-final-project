@@ -94,5 +94,14 @@
     img{
         display: block;
         width: 100%;
+        margin-top: 15px;
+
+        @include md{
+            margin-top: 35px;
+        }
+
+        @include md{
+            margin-top: 65px;
+        }
     }
 }
