@@ -353,7 +353,8 @@ template {
     Base
 ============= */
 body {
-  background-color: #3a6397;
+  background: #4a707f;
+  background: linear-gradient(180deg, #4a707f 9%, #f2d7ac 73%, #ffe094 100%);
 }
 
 ul {
