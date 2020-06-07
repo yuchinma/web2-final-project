@@ -621,6 +621,7 @@ footer h6 {
 }
 
 #section-2 img {
+  display: block;
   width: 100%;
 }
 #section-2 #section-2-content {
@@ -780,6 +781,7 @@ footer h6 {
   }
 }
 #section-3 img {
+  display: block;
   width: 100%;
 }
 @media (min-width: 768px) {
@@ -1140,6 +1142,7 @@ footer h6 {
   }
 }
 #section-6 img {
+  display: block;
   width: 100%;
 }
 
