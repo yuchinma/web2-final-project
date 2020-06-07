@@ -24,6 +24,10 @@ header{
         "logo title burger"
         "nav nav nav";
 
+        @include md{
+            grid-template-columns: 17% auto 13%;
+        }
+
         // @include lg {
         //     grid-template-columns: 20% auto;
         //     grid-template-areas: "logo nav";
@@ -31,11 +35,32 @@ header{
 
         #logo-container {
             grid-area: logo;
-            // padding: 20px;
+            padding-top: 6px;
+            padding-left: 8px;
+
+            @include md{
+                padding-top: 18px;
+                padding-left: 18px;
+            }
+
+            #logo{
+                height: 32px;
+                width: 32px;
+
+                @include md{
+                    height: 90px;
+                    width: 90px;
+                }
+            }
         }
 
         #title{
             grid-area: title;
+            padding-top: 6px;
+
+            @include md{
+                padding-top: 22px;
+            }
             
             h1{
                 color: white;
@@ -69,10 +94,23 @@ header{
             align-items: center;
             display: flex;
             justify-content: flex-end;
-            // padding: 20px;
+            padding-right: 10px;
+
+            @include md{
+                padding-top: 18px;
+                padding-right: 22px;
+            }
 
             @include lg {
                 display: none !important;
+            }
+
+            #burger-icon{
+                font-size: 25px;
+
+                @include md{
+                    font-size: 55px;
+                }
             }
 
             i {

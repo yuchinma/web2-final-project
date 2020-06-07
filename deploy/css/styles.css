@@ -465,11 +465,40 @@ header > div {
   grid-template-columns: 13% auto 13%;
   grid-template-areas: "logo title burger" "nav nav nav";
 }
+@media (min-width: 768px) {
+  header > div {
+    grid-template-columns: 17% auto 13%;
+  }
+}
 header > div #logo-container {
   grid-area: logo;
+  padding-top: 6px;
+  padding-left: 8px;
+}
+@media (min-width: 768px) {
+  header > div #logo-container {
+    padding-top: 18px;
+    padding-left: 18px;
+  }
+}
+header > div #logo-container #logo {
+  height: 32px;
+  width: 32px;
+}
+@media (min-width: 768px) {
+  header > div #logo-container #logo {
+    height: 90px;
+    width: 90px;
+  }
 }
 header > div #title {
   grid-area: title;
+  padding-top: 6px;
+}
+@media (min-width: 768px) {
+  header > div #title {
+    padding-top: 22px;
+  }
 }
 header > div #title h1 {
   color: white;
@@ -504,10 +533,25 @@ header > div #burger-container {
   align-items: center;
   display: flex;
   justify-content: flex-end;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  header > div #burger-container {
+    padding-top: 18px;
+    padding-right: 22px;
+  }
 }
 @media (min-width: 992px) {
   header > div #burger-container {
     display: none !important;
+  }
+}
+header > div #burger-container #burger-icon {
+  font-size: 25px;
+}
+@media (min-width: 768px) {
+  header > div #burger-container #burger-icon {
+    font-size: 55px;
   }
 }
 header > div #burger-container i {
@@ -1294,7 +1338,7 @@ footer h6 {
   }
 }
 #section-7 #section-7-container #social-media {
-  width: 150px;
+  width: 240px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1302,12 +1346,25 @@ footer h6 {
 }
 @media (min-width: 768px) {
   #section-7 #section-7-container #social-media {
-    width: 220px;
+    width: 325px;
   }
 }
 @media (min-width: 992px) {
   #section-7 #section-7-container #social-media {
-    width: 250px;
+    width: 380px;
+  }
+}
+#section-7 #section-7-container #social-media li {
+  font-size: 40px;
+}
+@media (min-width: 768px) {
+  #section-7 #section-7-container #social-media li {
+    font-size: 50px;
+  }
+}
+@media (min-width: 992px) {
+  #section-7 #section-7-container #social-media li {
+    font-size: 55px;
   }
 }
 #section-7 #section-7-container #social-media li a:link, #section-7 #section-7-container #social-media li a:visited {
