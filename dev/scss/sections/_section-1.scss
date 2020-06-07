@@ -7,14 +7,16 @@
         background-position: bottom;
         background-size: cover;
         height: 200px;
-        // margin-top: 80px;
+        margin-top: 42px;
         
         @include md{
             height: 500px;
+            margin-top: 102px;
         }
 
         @include lg{
-            height: 750px;  
+            height: 750px; 
+            margin-top: 125px; 
         }
 
         text-align: center;

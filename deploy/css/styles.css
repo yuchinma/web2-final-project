@@ -442,6 +442,90 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: black;
+  left: 0;
+  position: fixed;
+  top: 0;
+  height: 42px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  header {
+    height: 102px;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    height: 125px;
+  }
+}
+header > div {
+  display: grid;
+  grid-template-columns: 13% auto 13%;
+  grid-template-areas: "logo title burger" "nav nav nav";
+}
+header > div #logo-container {
+  grid-area: logo;
+}
+header > div #title {
+  grid-area: title;
+}
+header > div #title h1 {
+  color: white;
+  font-size: 1.125rem;
+}
+@media (min-width: 768px) {
+  header > div #title h1 {
+    font-size: 2.8125rem;
+  }
+}
+@media (min-width: 992px) {
+  header > div #title h1 {
+    font-size: 3.375rem;
+  }
+}
+header > div #title h6 {
+  color: white;
+  font-size: 0.5rem;
+}
+@media (min-width: 768px) {
+  header > div #title h6 {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 992px) {
+  header > div #title h6 {
+    font-size: 1.375rem;
+  }
+}
+header > div #burger-container {
+  grid-area: burger;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 992px) {
+  header > div #burger-container {
+    display: none !important;
+  }
+}
+header > div #burger-container i {
+  cursor: pointer;
+}
+header > div #nav-container {
+  background-color: grey;
+  grid-area: nav;
+  display: none;
+  padding: 20px;
+}
+@media (min-width: 992px) {
+  header > div #nav-container {
+    background-color: white;
+    display: block !important;
+  }
+}
+
 /* =============
     Footer
 ============= */
@@ -487,17 +571,20 @@ footer h6 {
   background-position: bottom;
   background-size: cover;
   height: 200px;
+  margin-top: 42px;
   text-align: center;
   padding-top: 30px;
 }
 @media (min-width: 768px) {
   #section-1 #section-1-content {
     height: 500px;
+    margin-top: 102px;
   }
 }
 @media (min-width: 992px) {
   #section-1 #section-1-content {
     height: 750px;
+    margin-top: 125px;
   }
 }
 #section-1 #section-1-content h1 {
