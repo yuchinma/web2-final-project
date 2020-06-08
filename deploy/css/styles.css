@@ -464,7 +464,7 @@ header {
 header > div {
   display: grid;
   grid-template-columns: 13% auto 13%;
-  grid-template-areas: "logo title burger" "nav nav nav";
+  grid-template-areas: "logo title burger" "navi navi navi";
 }
 @media (min-width: 768px) {
   header > div {
@@ -474,7 +474,7 @@ header > div {
 @media (min-width: 992px) {
   header > div {
     grid-template-columns: 8% 30% auto;
-    grid-template-areas: "logo title nav";
+    grid-template-areas: "logo title navi";
   }
 }
 header > div #logo-container {
@@ -499,11 +499,11 @@ header > div #logo-container #logo {
 }
 @media (min-width: 768px) {
   header > div #logo-container #logo {
-    height: 90px;
-    width: 90px;
+    height: 75px;
+    width: 75px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   header > div #logo-container #logo {
     height: 80px;
     width: 80px;
@@ -515,7 +515,7 @@ header > div #title {
 }
 @media (min-width: 768px) {
   header > div #title {
-    padding-top: 22px;
+    padding-top: 15px;
   }
 }
 @media (min-width: 992px) {
@@ -561,7 +561,7 @@ header > div #burger-container {
 }
 @media (min-width: 768px) {
   header > div #burger-container {
-    padding-top: 18px;
+    padding-top: 12px;
     padding-right: 22px;
   }
 }
@@ -575,14 +575,14 @@ header > div #burger-container #burger-icon {
 }
 @media (min-width: 768px) {
   header > div #burger-container #burger-icon {
-    font-size: 55px;
+    font-size: 45px;
   }
 }
 header > div #burger-container i {
   cursor: pointer;
 }
 header > div #nav-container {
-  grid-area: nav;
+  grid-area: navi;
   background-color: black;
   display: block;
   padding: 20px;
@@ -1440,9 +1440,5 @@ footer h6 {
   }
 }
 #section-7 #section-7-container #social-media li a:link, #section-7 #section-7-container #social-media li a:visited {
-  color: black;
   transition: 0.25s;
-}
-#section-7 #section-7-container #social-media li a:hover, #section-7 #section-7-container #social-media li a:active {
-  color: white;
 }

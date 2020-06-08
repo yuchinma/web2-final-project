@@ -22,7 +22,7 @@ header{
         grid-template-columns: 13% auto 13%;
         grid-template-areas: 
         "logo title burger"
-        "nav nav nav";
+        "navi navi navi";
 
         @include md{
             grid-template-columns: 15% auto 13%;
@@ -30,7 +30,7 @@ header{
 
         @include lg{
             grid-template-columns: 8% 30% auto;
-            grid-template-areas: "logo title nav";
+            grid-template-areas: "logo title navi";
         }
 
         #logo-container{
@@ -52,11 +52,11 @@ header{
                 width: 32px;
 
                 @include md{
-                    height: 90px;
-                    width: 90px;
+                    height: 75px;
+                    width: 75px;
                 }
 
-                @include md{
+                @include lg{
                     height: 80px;
                     width: 80px;
                 }
@@ -68,7 +68,7 @@ header{
             padding-top: 6px;
 
             @include md{
-                padding-top: 22px;
+                padding-top: 15px;
             }
 
             @include lg{
@@ -111,7 +111,7 @@ header{
             padding-right: 10px;
 
             @include md{
-                padding-top: 18px;
+                padding-top: 12px;
                 padding-right: 22px;
             }
 
@@ -123,7 +123,7 @@ header{
                 font-size: 25px;
 
                 @include md{
-                    font-size: 55px;
+                    font-size: 45px;
                 }
             }
 
@@ -133,7 +133,7 @@ header{
         }
 
         #nav-container{
-            grid-area: nav;
+            grid-area: navi;
             background-color: black;
             display: block;
             padding: 20px;
@@ -165,19 +165,6 @@ header{
                     }
                 }
             }
-
-            // @include lg{
-            //     // background-color: black;
-                
-            //     ul{
-            //         display: flex;
-            //         justify-content: flex-end;
-
-            //         a{
-            //             padding: 0 20px;
-            //         }
-            //     }
-            // }
         }
     }
 }
