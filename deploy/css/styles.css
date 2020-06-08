@@ -440,6 +440,38 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right;
+}
+@media (min-width: 992px) {
+  #nav-container ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+#nav-container ul li {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  #nav-container ul li {
+    align-items: center;
+    display: flex;
+    margin: 0px 30px 0 0;
+  }
+}
+#nav-container ul li a:link,
+#nav-container ul li a:visited {
+  color: white;
+  text-decoration: none;
+  transition: 0.25s;
+}
+#nav-container ul li a:hover,
+#nav-container ul li a:active {
+  color: white;
+  text-decoration: underline;
+}
+
 /* =============
     Header
 ============= */
@@ -872,14 +904,15 @@ footer h6 {
     font-size: 1.5625rem;
   }
 }
-#section-3 #section-3-signup #singup-form span {
+#section-3 #section-3-signup #singup-form a {
   text-decoration: underline;
+  color: white;
 }
-#section-3 #section-3-signup #singup-form span a:link, #section-3 #section-3-signup #singup-form span a:visited {
+#section-3 #section-3-signup #singup-form a a:link, #section-3 #section-3-signup #singup-form a a:visited {
   color: purple;
   transition: 0.25s;
 }
-#section-3 #section-3-signup #singup-form span i {
+#section-3 #section-3-signup #singup-form a i {
   cursor: pointer;
 }
 #section-3 img {
