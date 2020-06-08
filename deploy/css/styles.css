@@ -456,7 +456,7 @@ header {
     height: 102px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   header {
     height: 125px;
   }
@@ -583,14 +583,37 @@ header > div #burger-container i {
 }
 header > div #nav-container {
   grid-area: nav;
-  background-color: grey;
-  display: none;
+  background-color: black;
+  display: block;
   padding: 20px;
 }
+header > div #nav-container ul {
+  text-align: center;
+}
 @media (min-width: 992px) {
-  header > div #nav-container {
-    background-color: white;
-    display: block !important;
+  header > div #nav-container ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+header > div #nav-container ul a {
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+  font-size: 1.375rem;
+  font-weight: 800;
+}
+@media (min-width: 768px) {
+  header > div #nav-container ul a {
+    font-size: 1.5625rem;
+    line-height: 60px;
+  }
+}
+@media (min-width: 992px) {
+  header > div #nav-container ul a {
+    font-size: 1.375rem;
+    line-height: 50px;
+    padding: 0 20px;
   }
 }
 
@@ -848,6 +871,9 @@ footer h6 {
   #section-3 #section-3-signup #singup-form {
     font-size: 1.5625rem;
   }
+}
+#section-3 #section-3-signup #singup-form span {
+  text-decoration: underline;
 }
 #section-3 img {
   display: block;
