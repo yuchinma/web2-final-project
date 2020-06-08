@@ -120,6 +120,15 @@
 
             span{
                 text-decoration: underline;
+
+                a:link, a:visited{
+                    color: purple;
+                    transition: 0.25s;
+                }
+    
+                i {
+                    cursor: pointer;
+                }
             }
         }
     }
