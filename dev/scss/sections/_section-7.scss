@@ -33,6 +33,20 @@
                 font-size: rem-calc(28);
             }
 
+            a:link, a:visited{
+                color: black;
+                transition: 0.25s;
+            }
+
+            a:hover{
+                color: blue;
+                transition: 0.25s;
+            }
+
+            i{
+                cursor: pointer;
+            }
+
             #section-7-contact{
                 display: flex;
                 flex-direction: column;

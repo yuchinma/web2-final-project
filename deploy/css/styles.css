@@ -916,11 +916,15 @@ footer h6 {
     font-size: 1.5625rem;
   }
 }
-#section-3 #section-3-signup #singup-form a {
-  text-decoration: underline;
+#section-3 #section-3-signup #singup-form a:link, #section-3 #section-3-signup #singup-form a:visited {
   color: white;
+  transition: 0.25s;
 }
-#section-3 #section-3-signup #singup-form a i {
+#section-3 #section-3-signup #singup-form a:hover {
+  color: blue;
+  transition: 0.25s;
+}
+#section-3 #section-3-signup #singup-form i {
   cursor: pointer;
 }
 #section-3 img {
@@ -1484,6 +1488,17 @@ footer h6 {
   #section-7 #section-7-container #section-7-content {
     font-size: 1.75rem;
   }
+}
+#section-7 #section-7-container #section-7-content a:link, #section-7 #section-7-container #section-7-content a:visited {
+  color: black;
+  transition: 0.25s;
+}
+#section-7 #section-7-container #section-7-content a:hover {
+  color: blue;
+  transition: 0.25s;
+}
+#section-7 #section-7-container #section-7-content i {
+  cursor: pointer;
 }
 #section-7 #section-7-container #section-7-content #section-7-contact {
   display: flex;
