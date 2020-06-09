@@ -799,6 +799,12 @@ footer h6 {
   }
 }
 
+@media (min-width: 1200px) {
+  #section-3 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+  }
+}
 #section-3 hr {
   background-color: white;
 }
