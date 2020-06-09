@@ -10,11 +10,11 @@ header{
     width: 100%;
 
     @include md{
-        height: 102px;
+        height: 80px;
     }
 
     @include lg{
-        height: 125px;
+        height: 110px;
     }
 
     >div{
@@ -25,7 +25,7 @@ header{
         "navi navi navi";
 
         @include md{
-            grid-template-columns: 15% auto 13%;
+            grid-template-columns: 11% auto 13%;
         }
 
         @include lg{
@@ -39,12 +39,12 @@ header{
             padding-left: 8px;
 
             @include md{
-                padding-top: 18px;
-                padding-left: 18px;
+                padding-top: 13px;
+                padding-left: 13px;
             }
 
             @include lg{
-                padding-top: 23px;
+                padding-top: 18px;
             }
 
             #logo{
@@ -52,8 +52,8 @@ header{
                 width: 32px;
 
                 @include md{
-                    height: 75px;
-                    width: 75px;
+                    height: 60px;
+                    width: 60px;
                 }
 
                 @include lg{
@@ -68,11 +68,11 @@ header{
             padding-top: 6px;
 
             @include md{
-                padding-top: 15px;
+                padding-top: 12px;
             }
 
             @include lg{
-                padding-top: 15px;
+                padding-top: 11px;
                 padding-left: 15px;
             }
             
@@ -81,7 +81,7 @@ header{
                 font-size: rem-calc(18);
 
                 @include md{
-                    font-size: rem-calc(45);
+                    font-size: rem-calc(35);
                 }
 
                 @include lg{
@@ -94,7 +94,7 @@ header{
                 font-size: rem-calc(8);
 
                 @include md{
-                    font-size: rem-calc(18);
+                    font-size: rem-calc(13);
                 }
 
                 @include lg{
@@ -138,6 +138,15 @@ header{
             display: block;
             padding: 20px;
 
+            @include md{
+                position: relative;
+                top: -10px;
+            }
+
+            @include lg{
+                top: 0;
+            }
+
             ul{
                 text-align: center;
 
@@ -160,7 +169,7 @@ header{
 
                     @include lg{
                         font-size: rem-calc(22);
-                        line-height: 50px;
+                        line-height: 20px;
                         padding: 0 20px;
                     }
                 }

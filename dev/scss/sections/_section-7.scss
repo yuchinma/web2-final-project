@@ -53,6 +53,16 @@
                 h6{
                     align-self: flex-end;
                 }
+
+                #black-rec:hover{
+                    background-color: white;
+                    transition: all ease-in-out 0.25s;
+                    cursor: pointer;
+                    
+                    h6{
+                        color: black;
+                    }
+                }
             }
         }
 
@@ -170,15 +180,6 @@
                 @include lg{
                     font-size: 55px;
                 }
-
-                // a:link, a:visited{
-                //     // color: black;
-                //     transition: 0.25s;
-                // }
-    
-                // a:hover, a:active{
-                //     color: white;
-                // }
             }
         }
     }

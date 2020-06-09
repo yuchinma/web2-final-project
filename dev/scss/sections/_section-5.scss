@@ -96,6 +96,13 @@
         grid-template-areas: ". butt .";
         text-align: center;
 
+        .block{
+            @include lg{
+                position: relative;
+                top: -70px;
+            }
+        }
+
         #black-rec{
             grid-area: butt;
 
@@ -129,6 +136,16 @@
                     font-size: rem-calc(25);
                     line-height: 65px;
                 }
+            }
+        }
+
+        #black-rec:hover{
+            background-color: white;
+            transition: all ease-in-out 0.25s;
+            cursor: pointer;
+            
+            h6{
+                color: black;
             }
         }
     }

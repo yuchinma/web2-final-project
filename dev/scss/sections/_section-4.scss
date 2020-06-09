@@ -110,6 +110,16 @@
                 }
             }
         }
+
+        #black-rec:hover{
+            background-color: white;
+            transition: all ease-in-out 0.25s;
+            cursor: pointer;
+            
+            h6{
+                color: black;
+            }
+        }
     }
 
     #section-4-images{

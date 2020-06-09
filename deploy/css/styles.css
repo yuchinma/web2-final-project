@@ -485,12 +485,12 @@ header {
 }
 @media (min-width: 768px) {
   header {
-    height: 102px;
+    height: 80px;
   }
 }
 @media (min-width: 992px) {
   header {
-    height: 125px;
+    height: 110px;
   }
 }
 header > div {
@@ -500,7 +500,7 @@ header > div {
 }
 @media (min-width: 768px) {
   header > div {
-    grid-template-columns: 15% auto 13%;
+    grid-template-columns: 11% auto 13%;
   }
 }
 @media (min-width: 992px) {
@@ -516,13 +516,13 @@ header > div #logo-container {
 }
 @media (min-width: 768px) {
   header > div #logo-container {
-    padding-top: 18px;
-    padding-left: 18px;
+    padding-top: 13px;
+    padding-left: 13px;
   }
 }
 @media (min-width: 992px) {
   header > div #logo-container {
-    padding-top: 23px;
+    padding-top: 18px;
   }
 }
 header > div #logo-container #logo {
@@ -531,8 +531,8 @@ header > div #logo-container #logo {
 }
 @media (min-width: 768px) {
   header > div #logo-container #logo {
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
   }
 }
 @media (min-width: 992px) {
@@ -547,12 +547,12 @@ header > div #title {
 }
 @media (min-width: 768px) {
   header > div #title {
-    padding-top: 15px;
+    padding-top: 12px;
   }
 }
 @media (min-width: 992px) {
   header > div #title {
-    padding-top: 15px;
+    padding-top: 11px;
     padding-left: 15px;
   }
 }
@@ -562,7 +562,7 @@ header > div #title h1 {
 }
 @media (min-width: 768px) {
   header > div #title h1 {
-    font-size: 2.8125rem;
+    font-size: 2.1875rem;
   }
 }
 @media (min-width: 992px) {
@@ -576,7 +576,7 @@ header > div #title h6 {
 }
 @media (min-width: 768px) {
   header > div #title h6 {
-    font-size: 1.125rem;
+    font-size: 0.8125rem;
   }
 }
 @media (min-width: 992px) {
@@ -619,6 +619,17 @@ header > div #nav-container {
   display: block;
   padding: 20px;
 }
+@media (min-width: 768px) {
+  header > div #nav-container {
+    position: relative;
+    top: -10px;
+  }
+}
+@media (min-width: 992px) {
+  header > div #nav-container {
+    top: 0;
+  }
+}
 header > div #nav-container ul {
   text-align: center;
 }
@@ -644,7 +655,7 @@ header > div #nav-container ul a {
 @media (min-width: 992px) {
   header > div #nav-container ul a {
     font-size: 1.375rem;
-    line-height: 50px;
+    line-height: 20px;
     padding: 0 20px;
   }
 }
@@ -702,13 +713,13 @@ footer h6 {
 @media (min-width: 768px) {
   #section-1 #section-1-content {
     height: 500px;
-    margin-top: 102px;
+    margin-top: 80px;
   }
 }
 @media (min-width: 992px) {
   #section-1 #section-1-content {
     height: 750px;
-    margin-top: 125px;
+    margin-top: 110px;
   }
 }
 #section-1 #section-1-content h1 {
@@ -909,7 +920,7 @@ footer h6 {
   color: white;
 }
 #section-3 #section-3-signup #singup-form a a:link, #section-3 #section-3-signup #singup-form a a:visited {
-  color: purple;
+  color: blue;
   transition: 0.25s;
 }
 #section-3 #section-3-signup #singup-form a i {
@@ -1056,6 +1067,14 @@ footer h6 {
     line-height: 71px;
   }
 }
+#section-4 #button #black-rec:hover {
+  background-color: white;
+  transition: all ease-in-out 0.25s;
+  cursor: pointer;
+}
+#section-4 #button #black-rec:hover h6 {
+  color: black;
+}
 @media (min-width: 768px) {
   #section-4 #section-4-images {
     display: grid;
@@ -1155,6 +1174,12 @@ footer h6 {
   grid-template-areas: ". butt .";
   text-align: center;
 }
+@media (min-width: 992px) {
+  #section-5 #button .block {
+    position: relative;
+    top: -70px;
+  }
+}
 #section-5 #button #black-rec {
   grid-area: butt;
   height: 35px;
@@ -1192,6 +1217,14 @@ footer h6 {
     line-height: 65px;
   }
 }
+#section-5 #button #black-rec:hover {
+  background-color: white;
+  transition: all ease-in-out 0.25s;
+  cursor: pointer;
+}
+#section-5 #button #black-rec:hover h6 {
+  color: black;
+}
 
 #section-6 hr {
   margin-top: 48px;
@@ -1203,7 +1236,7 @@ footer h6 {
 }
 @media (min-width: 992px) {
   #section-6 hr {
-    margin-top: 90px;
+    margin-top: 0;
   }
 }
 @media (min-width: 768px) {
@@ -1357,6 +1390,14 @@ footer h6 {
 }
 #section-7 #section-7-container #section-7-content #section-7-contact h6 {
   align-self: flex-end;
+}
+#section-7 #section-7-container #section-7-content #section-7-contact #black-rec:hover {
+  background-color: white;
+  transition: all ease-in-out 0.25s;
+  cursor: pointer;
+}
+#section-7 #section-7-container #section-7-content #section-7-contact #black-rec:hover h6 {
+  color: black;
 }
 #section-7 #section-7-container #indent {
   padding-left: 48px;
