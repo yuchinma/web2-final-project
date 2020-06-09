@@ -1215,6 +1215,9 @@ footer h6 {
     grid-template-areas: "g1 g2 g3 g4" "g5 g6 g7 g8" ". . . btn";
   }
 }
+#section-5 #section-5-content #section-5-gallery a:hover, #section-5 #section-5-content #section-5-gallery a:active {
+  transform: scale(1.1);
+}
 #section-5 #section-5-content img {
   width: 100%;
 }

@@ -83,6 +83,10 @@
                 "g5 g6 g7 g8"
                 ". . . btn";
             }
+
+            a:hover,a:active {
+                transform: scale(1.1);
+            }
         }
 
         img{
