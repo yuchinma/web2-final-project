@@ -470,6 +470,7 @@ textarea {
 #nav-container ul li a:active {
   color: white;
   text-decoration: underline;
+  transform: scale(1.2);
 }
 
 /* =============
@@ -505,7 +506,7 @@ header > div {
 }
 @media (min-width: 992px) {
   header > div {
-    grid-template-columns: 8% 30% auto;
+    grid-template-columns: 7% 30% auto;
     grid-template-areas: "logo title navi";
   }
 }
@@ -522,7 +523,7 @@ header > div #logo-container {
 }
 @media (min-width: 992px) {
   header > div #logo-container {
-    padding-top: 18px;
+    padding-top: 20px;
   }
 }
 header > div #logo-container #logo {
@@ -537,8 +538,8 @@ header > div #logo-container #logo {
 }
 @media (min-width: 992px) {
   header > div #logo-container #logo {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
   }
 }
 header > div #title {
@@ -552,7 +553,7 @@ header > div #title {
 }
 @media (min-width: 992px) {
   header > div #title {
-    padding-top: 11px;
+    padding-top: 12px;
     padding-left: 15px;
   }
 }
@@ -567,7 +568,7 @@ header > div #title h1 {
 }
 @media (min-width: 992px) {
   header > div #title h1 {
-    font-size: 3.375rem;
+    font-size: 3.125rem;
   }
 }
 header > div #title h6 {
@@ -581,7 +582,7 @@ header > div #title h6 {
 }
 @media (min-width: 992px) {
   header > div #title h6 {
-    font-size: 1.375rem;
+    font-size: 1.125rem;
   }
 }
 header > div #burger-container {
@@ -654,9 +655,9 @@ header > div #nav-container ul a {
 }
 @media (min-width: 992px) {
   header > div #nav-container ul a {
-    font-size: 1.375rem;
+    font-size: 1.3125rem;
     line-height: 20px;
-    padding: 0 20px;
+    padding: 0 13px;
   }
 }
 
@@ -918,10 +919,6 @@ footer h6 {
 #section-3 #section-3-signup #singup-form a {
   text-decoration: underline;
   color: white;
-}
-#section-3 #section-3-signup #singup-form a a:link, #section-3 #section-3-signup #singup-form a a:visited {
-  color: blue;
-  transition: 0.25s;
 }
 #section-3 #section-3-signup #singup-form a i {
   cursor: pointer;
@@ -1305,6 +1302,28 @@ footer h6 {
   #section-6 #section-6-content #faq {
     font-size: 1.75rem;
   }
+}
+#section-6 #section-6-content #faq #game-link-1 a:link, #section-6 #section-6-content #faq #game-link-1 a:visited {
+  color: black;
+  transition: 0.25s;
+}
+#section-6 #section-6-content #faq #game-link-1 a:hover, #section-6 #section-6-content #faq #game-link-1 a:active {
+  color: blue;
+  transition: 0.25s;
+}
+#section-6 #section-6-content #faq #game-link-1 i {
+  cursor: pointer;
+}
+#section-6 #section-6-content #faq #game-link-2 a:link, #section-6 #section-6-content #faq #game-link-2 a:visited {
+  color: black;
+  transition: 0.25s;
+}
+#section-6 #section-6-content #faq #game-link-2 a:hover, #section-6 #section-6-content #faq #game-link-2 a:active {
+  color: blue;
+  transition: 0.25s;
+}
+#section-6 #section-6-content #faq #game-link-2 i {
+  cursor: pointer;
 }
 #section-6 #section-6-content #qa {
   grid-area: qanda;

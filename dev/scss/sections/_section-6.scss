@@ -76,6 +76,39 @@
             @include lg{
                 font-size: rem-calc(28);
             }
+
+            #game-link-1{
+                a:link, a:visited{
+                    color: black;
+                    transition: 0.25s;
+                }
+
+                a:hover, a:active{
+                    color: blue;
+                    transition: 0.25s;
+                }
+
+                i {
+                    cursor: pointer;
+                }
+            }
+
+            #game-link-2{
+
+                a:link, a:visited{
+                    color: black;
+                    transition: 0.25s;
+                }
+
+                a:hover, a:active{
+                    color: blue;
+                    transition: 0.25s;
+                }
+
+                i {
+                    cursor: pointer;
+                }
+            }
         }
 
         #qa{

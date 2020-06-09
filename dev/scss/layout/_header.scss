@@ -29,7 +29,7 @@ header{
         }
 
         @include lg{
-            grid-template-columns: 8% 30% auto;
+            grid-template-columns: 7% 30% auto;
             grid-template-areas: "logo title navi";
         }
 
@@ -44,7 +44,7 @@ header{
             }
 
             @include lg{
-                padding-top: 18px;
+                padding-top: 20px;
             }
 
             #logo{
@@ -57,8 +57,8 @@ header{
                 }
 
                 @include lg{
-                    height: 80px;
-                    width: 80px;
+                    height: 70px;
+                    width: 70px;
                 }
             }
         }
@@ -72,7 +72,7 @@ header{
             }
 
             @include lg{
-                padding-top: 11px;
+                padding-top: 12px;
                 padding-left: 15px;
             }
             
@@ -85,7 +85,7 @@ header{
                 }
 
                 @include lg{
-                    font-size: rem-calc(54);
+                    font-size: rem-calc(50);
                 }
             }
 
@@ -98,7 +98,7 @@ header{
                 }
 
                 @include lg{
-                    font-size: rem-calc(22);
+                    font-size: rem-calc(18);
                 }
             }
         }
@@ -168,9 +168,9 @@ header{
                     }
 
                     @include lg{
-                        font-size: rem-calc(22);
+                        font-size: rem-calc(21);
                         line-height: 20px;
-                        padding: 0 20px;
+                        padding: 0 13px;
                     }
                 }
             }
