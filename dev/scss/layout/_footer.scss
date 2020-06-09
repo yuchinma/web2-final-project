@@ -1,34 +1,34 @@
 /* =============
     Footer
 ============= */
-footer{
+footer {
     background-color: black;
     height: 30px;
     margin-top: 37px;
 
-    @include md{
+    @include md {
         height: 60px;
         margin-top: 78px;
     }
 
-    @include md{
+    @include md {
         height: 65px;
     }
 
-    h6{
+    h6 {
         font-size: rem-calc(6);
         text-justify: center;
-        line-height: 30px; 
+        line-height: 30px;
         padding-left: 3%;
 
-        @include md{
+        @include md {
             font-size: rem-calc(13);
-            line-height: 60px; 
+            line-height: 60px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(15);
-            line-height: 65px; 
+            line-height: 65px;
         }
     }
 }

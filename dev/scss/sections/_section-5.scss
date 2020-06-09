@@ -1,73 +1,73 @@
-#section-5{
-    #title{
+#section-5 {
+    #title {
         font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
         margin-bottom: 26px;
 
-        @include md{
+        @include md {
             font-size: rem-calc(38);
             padding-top: 55px;
             padding-left: 44px;
             margin-bottom: 43px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(45);
         }
     }
 
-    #section-5-content{
-       display: grid;
-       grid-template-columns: 58px auto 58px;
-       grid-template-areas: ". pics .";
+    #section-5-content {
+        display: grid;
+        grid-template-columns: 58px auto 58px;
+        grid-template-areas: ". pics .";
 
-        #section-5-gallery{
+        #section-5-gallery {
             grid-area: pics;
             display: grid;
             gap: 35px;
 
-            @include md{
+            @include md {
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(3, 1fr);
-                grid-template-areas: 
-                "g1 g2 g3"
-                "g4 g5 g6"
-                "g7 g8 btn";
-    
-                #gallery-1{
+                grid-template-areas:
+                    "g1 g2 g3"
+                    "g4 g5 g6"
+                    "g7 g8 btn";
+
+                #gallery-1 {
                     grid-area: g1;
                 }
-                
-                #gallery-2{
+
+                #gallery-2 {
                     grid-area: g2;
                 }
-    
-                #gallery-3{
+
+                #gallery-3 {
                     grid-area: g3;
                 }
-    
-                #gallery-4{
+
+                #gallery-4 {
                     grid-area: g4;
                 }
-    
-                #gallery-5{
+
+                #gallery-5 {
                     grid-area: g5;
                 }
-    
-                #gallery-6{
+
+                #gallery-6 {
                     grid-area: g6;
                 }
-    
-                #gallery-7{
+
+                #gallery-7 {
                     grid-area: g7;
                 }
-    
-                #gallery-8{
+
+                #gallery-8 {
                     grid-area: g8;
                 }
-    
-                #button{
+
+                #button {
                     grid-area: btn;
                     display: flex;
                     justify-content: center;
@@ -75,39 +75,40 @@
                 }
             }
 
-            @include lg{
+            @include lg {
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: "auto auto 12.5%";
-                grid-template-areas: 
-                "g1 g2 g3 g4"
-                "g5 g6 g7 g8"
-                ". . . btn";
+                grid-template-areas:
+                    "g1 g2 g3 g4"
+                    "g5 g6 g7 g8"
+                    ". . . btn";
             }
 
-            a:hover,a:active {
+            a:hover,
+            a:active {
                 transform: scale(1.1);
             }
         }
 
-        img{
+        img {
             width: 100%;
         }
     }
 
-    #button{
+    #button {
         display: grid;
         grid-template-columns: auto 50% auto;
         grid-template-areas: ". butt .";
         text-align: center;
 
-        .block{
-            @include lg{
+        .block {
+            @include lg {
                 position: relative;
                 top: -70px;
             }
         }
 
-        #black-rec{
+        #black-rec {
             grid-area: butt;
 
             height: 35px;
@@ -116,39 +117,39 @@
             background-color: black;
             margin: 0 auto;
 
-            @include md{
+            @include md {
                 height: 48px;
                 width: 168px;
             }
 
-            @include lg{
+            @include lg {
                 height: 65px;
                 width: 264px;
             }
-    
-            h6{
+
+            h6 {
                 font-size: rem-calc(13);
                 text-align: center;
                 line-height: 35px;
 
-                @include md{
+                @include md {
                     font-size: rem-calc(17);
                     line-height: 48px;
                 }
 
-                @include lg{
+                @include lg {
                     font-size: rem-calc(25);
                     line-height: 65px;
                 }
             }
         }
 
-        #black-rec:hover{
+        #black-rec:hover {
             background-color: white;
             transition: all ease-in-out 0.25s;
             cursor: pointer;
-            
-            h6{
+
+            h6 {
                 color: black;
             }
         }

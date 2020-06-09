@@ -1,117 +1,118 @@
-#section-4{
-    hr{
+#section-4 {
+    hr {
         background-color: white;
-        @include md{
+
+        @include md {
             margin-top: 90px;
         }
     }
 
-    #title{
+    #title {
         font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
 
-        @include md{
+        @include md {
             font-size: rem-calc(38);
             padding-top: 55px;
             padding-left: 44px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(45);
             padding-top: 75px;
             padding-left: 40px;
         }
     }
 
-    #section-4-content{
+    #section-4-content {
         display: grid;
         grid-template-columns: 27px auto 27px;
         grid-template-areas: ". section-4-content .";
-        
-        #indent{
+
+        #indent {
             grid-area: section-4-content;
         }
 
-        #rules-container{
+        #rules-container {
             display: grid;
             grid-template-columns: 5% auto;
             grid-template-areas: "points rules";
             font-size: rem-calc(16);
             line-height: normal;
 
-            @include md{
+            @include md {
                 grid-template-columns: 2% auto;
                 font-size: rem-calc(23);
             }
 
-            @include lg{
+            @include lg {
                 font-size: rem-calc(28);
             }
 
-            #space-1{
+            #space-1 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-2{
+            #space-2 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-3{
+            #space-3 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-4{
+            #space-4 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-5{
+            #space-5 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-6{
+            #space-6 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
         }
 
-        #bullet{
-           grid-area: points;
+        #bullet {
+            grid-area: points;
         }
 
-        #rules{
+        #rules {
             grid-area: rules;
         }
 
-        @include md{
+        @include md {
             grid-template-columns: 8% auto 8%;
         }
     }
 
-    #button{
+    #button {
         display: grid;
         grid-template-columns: auto 40% auto;
         grid-template-areas: ". butt .";
@@ -119,12 +120,12 @@
         margin-top: 20px;
         margin-bottom: 50px;
 
-        @include md{
+        @include md {
             margin-top: 36px;
             margin-bottom: 70px;
         }
 
-        #black-rec{
+        #black-rec {
             grid-area: butt;
             height: 35px;
             width: 144px;
@@ -132,61 +133,61 @@
             background-color: black;
             margin: 0 auto;
 
-            @include md{
+            @include md {
                 height: 57px;
                 width: 215px;
             }
 
-            @include lg{
+            @include lg {
                 height: 71px;
                 width: 267px;
             }
 
-            h6{
+            h6 {
                 font-size: rem-calc(14);
                 text-align: center;
                 line-height: 35px;
 
-                @include md{
+                @include md {
                     font-size: rem-calc(23);
                     line-height: 57px;
                 }
 
-                @include lg{
+                @include lg {
                     font-size: rem-calc(28);
                     line-height: 71px;
                 }
             }
         }
 
-        #black-rec:hover{
+        #black-rec:hover {
             background-color: white;
             transition: all ease-in-out 0.25s;
             cursor: pointer;
-            
-            h6{
+
+            h6 {
                 color: black;
             }
         }
     }
 
-    #section-4-images{
-        @include md{
+    #section-4-images {
+        @include md {
             display: grid;
             grid-template-columns: 50% 50%;
             grid-template-areas: "img-1 img-2";
 
-            #img-1{
+            #img-1 {
                 grid-area: img-1;
             }
 
-            #img-2{
+            #img-2 {
                 grid-area: img-2;
             }
         }
     }
 
-    img{
+    img {
         width: 100%;
     }
 }

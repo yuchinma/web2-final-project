@@ -10,8 +10,7 @@ function mouseClick() {
         if (isVisible === false) {
             $nav.show();
             isVisible = true;
-        } 
-        else {
+        } else {
             $nav.hide();
             isVisible = false;
         }

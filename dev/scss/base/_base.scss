@@ -1,20 +1,20 @@
 /* =============
     Base
 ============= */
-body{
-    background: rgb(74,112,127);
-    background: linear-gradient(180deg, rgba(74,112,127,1) 9%, rgba(242,215,172,1) 73%, rgba(255,224,148,1) 100%);
+body {
+    background: rgb(74, 112, 127);
+    background: linear-gradient(180deg, rgba(74, 112, 127, 1) 9%, rgba(242, 215, 172, 1) 73%, rgba(255, 224, 148, 1) 100%);
 }
 
-ul{
+ul {
     padding: 0;
 
-    li{
+    li {
         list-style: none;
     }
 }
 
-hr{
+hr {
     border: none;
     height: 3px;
     background-color: black;
@@ -23,12 +23,12 @@ hr{
 
 .nospace {
     font-size: 0;
- }
+}
 
-.white-text{
+.white-text {
     color: white;
 }
 
-.black-text{
+.black-text {
     color: black;
 }

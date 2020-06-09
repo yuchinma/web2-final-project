@@ -1,65 +1,65 @@
-#section-6{
-    hr{
+#section-6 {
+    hr {
         margin-top: 48px;
 
-        @include md{
+        @include md {
             margin-top: 100px;
         }
 
-        @include lg{
+        @include lg {
             margin-top: 0;
         }
     }
 
-    #section-6-title{
-        @include md{
+    #section-6-title {
+        @include md {
             display: flex;
             flex-direction: row;
             align-items: baseline;
         }
     }
 
-    #title{
+    #title {
         font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
 
-        @include md{
+        @include md {
             font-size: rem-calc(38);
             padding-top: 55px;
             padding-left: 44px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(45);
         }
     }
 
-    #subtitle{
+    #subtitle {
         font-size: rem-calc(12);
         padding-top: 3px;
         padding-left: 17px;
 
-        @include md{
+        @include md {
             font-size: rem-calc(15);
             padding-left: 8px;
         }
 
-        @include lg{
+        @include lg {
             font-size: rem-calc(20);
         }
     }
 
-    #section-6-content{
+    #section-6-content {
         display: grid;
         grid-template-columns: 27px auto 27px;
         grid-template-areas: ". section-6-content .";
-        
-        #indent{
+
+        #indent {
             grid-area: section-6-content;
         }
 
-        #faq{
+        #faq {
             display: grid;
             grid-template-columns: 5% auto;
             grid-template-areas: "qanda answer";
@@ -68,70 +68,73 @@
             font-size: rem-calc(16);
             line-height: normal;
 
-            @include md{
+            @include md {
                 font-size: rem-calc(23);
                 column-gap: 0;
             }
 
-            @include lg{
+            @include lg {
                 font-size: rem-calc(28);
             }
 
-            #space-1{
+            #space-1 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-2{
+            #space-2 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-3{
+            #space-3 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-4{
+            #space-4 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-5{
+            #space-5 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #space-6{
+            #space-6 {
                 margin-top: 25px;
 
-                @include md{
+                @include md {
                     margin-top: 35px;
                 }
             }
 
-            #game-link-1{
-                a:link, a:visited{
+            #game-link-1 {
+
+                a:link,
+                a:visited {
                     color: black;
                     transition: 0.25s;
                 }
 
-                a:hover, a:active{
+                a:hover,
+                a:active {
                     color: blue;
                     transition: 0.25s;
                 }
@@ -141,14 +144,16 @@
                 }
             }
 
-            #game-link-2{
+            #game-link-2 {
 
-                a:link, a:visited{
+                a:link,
+                a:visited {
                     color: black;
                     transition: 0.25s;
                 }
 
-                a:hover, a:active{
+                a:hover,
+                a:active {
                     color: blue;
                     transition: 0.25s;
                 }
@@ -159,29 +164,29 @@
             }
         }
 
-        #qa{
+        #qa {
             grid-area: qanda;
         }
 
-        #asn{
+        #asn {
             grid-area: answer;
         }
 
-        @include md{
+        @include md {
             grid-template-columns: 10% auto 10%;
         }
     }
 
-    img{
+    img {
         display: block;
         width: 100%;
         margin-top: 15px;
 
-        @include md{
+        @include md {
             margin-top: 35px;
         }
 
-        @include md{
+        @include md {
             margin-top: 65px;
         }
     }

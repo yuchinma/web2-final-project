@@ -1,7 +1,7 @@
 /* =============
     Header
 ============= */
-header{
+header {
     background-color: black;
     left: 0;
     position: fixed;
@@ -10,95 +10,95 @@ header{
     width: 100%;
     z-index: 1000;
 
-    @include md{
+    @include md {
         height: 80px;
     }
 
-    @include lg{
+    @include lg {
         height: 110px;
     }
 
-    >div{
+    >div {
         display: grid;
         grid-template-columns: 14% auto 13%;
-        grid-template-areas: 
-        "logo title burger"
-        "navi navi navi";
+        grid-template-areas:
+            "logo title burger"
+            "navi navi navi";
 
-        @include md{
+        @include md {
             grid-template-columns: 11% auto 13%;
         }
 
-        @include lg{
+        @include lg {
             grid-template-columns: 7% 30% auto;
             grid-template-areas: "logo title navi";
         }
 
-        #logo-container{
+        #logo-container {
             grid-area: logo;
             padding-top: 10px;
             padding-left: 8px;
 
-            @include md{
+            @include md {
                 padding-top: 13px;
                 padding-left: 13px;
             }
 
-            @include lg{
+            @include lg {
                 padding-top: 20px;
             }
 
-            #logo{
+            #logo {
                 height: 35px;
                 width: 35px;
 
-                @include md{
+                @include md {
                     height: 60px;
                     width: 60px;
                 }
 
-                @include lg{
+                @include lg {
                     height: 70px;
                     width: 70px;
                 }
             }
         }
 
-        #title{
+        #title {
             grid-area: title;
             padding-top: 10px;
 
-            @include md{
+            @include md {
                 padding-top: 12px;
             }
 
-            @include lg{
+            @include lg {
                 padding-top: 12px;
                 padding-left: 15px;
             }
-            
-            h1{
+
+            h1 {
                 color: white;
                 font-size: rem-calc(20);
 
-                @include md{
+                @include md {
                     font-size: rem-calc(35);
                 }
 
-                @include lg{
+                @include lg {
                     font-size: rem-calc(50);
                 }
             }
 
-            h6{
+            h6 {
                 color: white;
                 font-size: rem-calc(10);
 
-                @include md{
+                @include md {
                     font-size: rem-calc(13);
                 }
 
-                @include lg{
+                @include lg {
                     font-size: rem-calc(18);
                 }
             }
@@ -112,19 +112,19 @@ header{
             padding-right: 12px;
             padding-top: 10px;
 
-            @include md{
+            @include md {
                 padding-top: 12px;
                 padding-right: 22px;
             }
 
-            @include lg{
+            @include lg {
                 display: none !important;
             }
 
-            #burger-icon{
+            #burger-icon {
                 font-size: 25px;
 
-                @include md{
+                @include md {
                     font-size: 45px;
                 }
             }
@@ -134,42 +134,42 @@ header{
             }
         }
 
-        #nav-container{
+        #nav-container {
             grid-area: navi;
             background-color: black;
             display: block;
             padding: 20px;
 
-            @include md{
+            @include md {
                 position: relative;
                 top: -10px;
             }
 
-            @include lg{
+            @include lg {
                 top: 0;
             }
 
-            ul{
+            ul {
                 text-align: center;
 
-                @include lg{
+                @include lg {
                     display: flex;
                     justify-content: flex-end;
                 }
 
-                a{
+                a {
                     text-decoration: none;
                     color: white;
                     line-height: 50px;
                     font-size: rem-calc(22);
                     font-weight: 800;
-    
-                    @include md{
+
+                    @include md {
                         font-size: rem-calc(25);
                         line-height: 60px;
                     }
 
-                    @include lg{
+                    @include lg {
                         font-size: rem-calc(21);
                         line-height: 20px;
                         padding: 0 13px;

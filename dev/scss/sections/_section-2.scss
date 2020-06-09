@@ -1,23 +1,23 @@
-#section-2{
-    img{
+#section-2 {
+    img {
         display: block;
         width: 100%;
     }
 
-    #section-2-content{
+    #section-2-content {
         display: grid;
         grid-template-columns: 18.5px auto 18.5px;
         grid-template-areas: ". section-2-content .";
 
-        @include md{
+        @include md {
             grid-template-columns: 96.5px auto 96.5px;
         }
 
-        @include lg{
+        @include lg {
             grid-template-columns: 95.5px auto 95.5px;
         }
 
-        p{
+        p {
             grid-area: section-2-content;
             text-align: center;
             font-size: rem-calc(16);
@@ -25,13 +25,13 @@
             padding-top: 27px;
             padding-bottom: 27px;
 
-            @include md{
+            @include md {
                 font-size: rem-calc(28);
                 padding-top: 55px;
                 padding-bottom: 55px;
             }
 
-            @include lg{
+            @include lg {
                 font-size: rem-calc(40);
                 padding-top: 80px;
                 padding-bottom: 80px;
