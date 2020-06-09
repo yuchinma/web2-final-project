@@ -497,7 +497,7 @@ header {
 }
 header > div {
   display: grid;
-  grid-template-columns: 13% auto 13%;
+  grid-template-columns: 14% auto 13%;
   grid-template-areas: "logo title burger" "navi navi navi";
 }
 @media (min-width: 768px) {
@@ -513,7 +513,7 @@ header > div {
 }
 header > div #logo-container {
   grid-area: logo;
-  padding-top: 12px;
+  padding-top: 10px;
   padding-left: 8px;
 }
 @media (min-width: 768px) {
@@ -528,8 +528,8 @@ header > div #logo-container {
   }
 }
 header > div #logo-container #logo {
-  height: 32px;
-  width: 32px;
+  height: 35px;
+  width: 35px;
 }
 @media (min-width: 768px) {
   header > div #logo-container #logo {
@@ -545,7 +545,7 @@ header > div #logo-container #logo {
 }
 header > div #title {
   grid-area: title;
-  padding-top: 12px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) {
   header > div #title {
@@ -560,7 +560,7 @@ header > div #title {
 }
 header > div #title h1 {
   color: white;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
 @media (min-width: 768px) {
   header > div #title h1 {
@@ -574,7 +574,7 @@ header > div #title h1 {
 }
 header > div #title h6 {
   color: white;
-  font-size: 0.5rem;
+  font-size: 0.625rem;
 }
 @media (min-width: 768px) {
   header > div #title h6 {
@@ -591,7 +591,7 @@ header > div #burger-container {
   align-items: center;
   display: flex;
   justify-content: flex-end;
-  padding-right: 10px;
+  padding-right: 12px;
   padding-top: 10px;
 }
 @media (min-width: 768px) {
@@ -727,34 +727,42 @@ footer h6 {
 }
 #section-1 #section-1-content h1 {
   font-size: 1.375rem;
+  position: relative;
+  top: -8px;
 }
 @media (min-width: 768px) {
   #section-1 #section-1-content h1 {
     font-size: 3.375rem;
     padding-top: 55px;
+    top: -20px;
   }
 }
 @media (min-width: 992px) {
   #section-1 #section-1-content h1 {
     font-size: 4.5rem;
     padding-top: 50px;
+    top: -5px;
   }
 }
 #section-1 #section-1-content h5 {
   font-size: 0.625rem;
   padding-left: 32%;
   padding-right: 32%;
+  position: relative;
+  top: -5px;
 }
 @media (min-width: 768px) {
   #section-1 #section-1-content h5 {
     font-size: 1.375rem;
     padding-left: 0;
     padding-right: 0;
+    top: -15px;
   }
 }
 @media (min-width: 992px) {
   #section-1 #section-1-content h5 {
     font-size: 1.875rem;
+    top: -3px;
   }
 }
 
@@ -1072,8 +1080,8 @@ footer h6 {
   grid-template-columns: auto 40% auto;
   grid-template-areas: ". butt .";
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 @media (min-width: 768px) {
   #section-4 #button {

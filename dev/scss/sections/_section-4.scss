@@ -116,8 +116,8 @@
         grid-template-columns: auto 40% auto;
         grid-template-areas: ". butt .";
         text-align: center;
-        margin-top: 32px;
-        margin-bottom: 32px;
+        margin-top: 20px;
+        margin-bottom: 50px;
 
         @include md{
             margin-top: 36px;
