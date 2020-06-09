@@ -77,6 +77,54 @@
                 font-size: rem-calc(28);
             }
 
+            #space-1{
+                margin-top: 25px;
+
+                @include md{
+                    margin-top: 35px;
+                }
+            }
+
+            #space-2{
+                margin-top: 25px;
+
+                @include md{
+                    margin-top: 35px;
+                }
+            }
+
+            #space-3{
+                margin-top: 25px;
+
+                @include md{
+                    margin-top: 35px;
+                }
+            }
+
+            #space-4{
+                margin-top: 25px;
+
+                @include md{
+                    margin-top: 35px;
+                }
+            }
+
+            #space-5{
+                margin-top: 25px;
+
+                @include md{
+                    margin-top: 35px;
+                }
+            }
+
+            #space-6{
+                margin-top: 25px;
+
+                @include md{
+                    margin-top: 35px;
+                }
+            }
+
             #game-link-1{
                 a:link, a:visited{
                     color: black;

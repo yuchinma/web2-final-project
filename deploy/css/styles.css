@@ -1002,6 +1002,54 @@ footer h6 {
     font-size: 1.75rem;
   }
 }
+#section-4 #section-4-content #rules-container #space-1 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-1 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-2 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-2 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-3 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-3 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-4 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-4 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-5 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-5 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-6 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-6 {
+    margin-top: 35px;
+  }
+}
 #section-4 #section-4-content #bullet {
   grid-area: points;
 }
@@ -1301,6 +1349,54 @@ footer h6 {
 @media (min-width: 992px) {
   #section-6 #section-6-content #faq {
     font-size: 1.75rem;
+  }
+}
+#section-6 #section-6-content #faq #space-1 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-6 #section-6-content #faq #space-1 {
+    margin-top: 35px;
+  }
+}
+#section-6 #section-6-content #faq #space-2 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-6 #section-6-content #faq #space-2 {
+    margin-top: 35px;
+  }
+}
+#section-6 #section-6-content #faq #space-3 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-6 #section-6-content #faq #space-3 {
+    margin-top: 35px;
+  }
+}
+#section-6 #section-6-content #faq #space-4 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-6 #section-6-content #faq #space-4 {
+    margin-top: 35px;
+  }
+}
+#section-6 #section-6-content #faq #space-5 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-6 #section-6-content #faq #space-5 {
+    margin-top: 35px;
+  }
+}
+#section-6 #section-6-content #faq #space-6 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-6 #section-6-content #faq #space-6 {
+    margin-top: 35px;
   }
 }
 #section-6 #section-6-content #faq #game-link-1 a:link, #section-6 #section-6-content #faq #game-link-1 a:visited {
