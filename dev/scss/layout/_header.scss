@@ -8,6 +8,7 @@ header{
     top: 0;
     height: 42px;
     width: 100%;
+    z-index: 1000;
 
     @include md{
         height: 80px;
