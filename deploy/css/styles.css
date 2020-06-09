@@ -481,7 +481,7 @@ header {
   left: 0;
   position: fixed;
   top: 0;
-  height: 42px;
+  height: 55px;
   width: 100%;
   z-index: 1000;
 }
@@ -513,7 +513,7 @@ header > div {
 }
 header > div #logo-container {
   grid-area: logo;
-  padding-top: 6px;
+  padding-top: 12px;
   padding-left: 8px;
 }
 @media (min-width: 768px) {
@@ -545,7 +545,7 @@ header > div #logo-container #logo {
 }
 header > div #title {
   grid-area: title;
-  padding-top: 6px;
+  padding-top: 12px;
 }
 @media (min-width: 768px) {
   header > div #title {
@@ -592,6 +592,7 @@ header > div #burger-container {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) {
   header > div #burger-container {
@@ -708,7 +709,7 @@ footer h6 {
   background-position: bottom;
   background-size: cover;
   height: 200px;
-  margin-top: 42px;
+  margin-top: 55px;
   text-align: center;
   padding-top: 30px;
 }
@@ -799,12 +800,6 @@ footer h6 {
   }
 }
 
-@media (min-width: 1200px) {
-  #section-3 {
-    display: grid;
-    grid-template-columns: auto 1200px auto;
-  }
-}
 #section-3 hr {
   background-color: white;
 }
