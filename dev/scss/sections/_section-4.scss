@@ -7,7 +7,7 @@
         }
     }
 
-    #title {
+    #section-4-title {
         font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
@@ -50,47 +50,47 @@
                 font-size: rem-calc(28);
             }
 
-            #space-1 {
-                margin-top: 25px;
-
-                @include md {
-                    margin-top: 35px;
-                }
-            }
-
-            #space-2 {
-                margin-top: 25px;
-
-                @include md {
-                    margin-top: 35px;
-                }
-            }
-
-            #space-3 {
-                margin-top: 25px;
-
-                @include md {
-                    margin-top: 35px;
-                }
-            }
-
-            #space-4 {
-                margin-top: 25px;
-
-                @include md {
-                    margin-top: 35px;
-                }
-            }
-
-            #space-5 {
-                margin-top: 25px;
-
-                @include md {
-                    margin-top: 35px;
-                }
-            }
-
             #space-6 {
+                margin-top: 25px;
+
+                @include md {
+                    margin-top: 35px;
+                }
+            }
+
+            #space-7 {
+                margin-top: 25px;
+
+                @include md {
+                    margin-top: 35px;
+                }
+            }
+
+            #space-8 {
+                margin-top: 25px;
+
+                @include md {
+                    margin-top: 35px;
+                }
+            }
+
+            #space-9 {
+                margin-top: 25px;
+
+                @include md {
+                    margin-top: 35px;
+                }
+            }
+
+            #space-10 {
+                margin-top: 25px;
+
+                @include md {
+                    margin-top: 35px;
+                }
+            }
+
+            #space-11 {
                 margin-top: 25px;
 
                 @include md {
@@ -112,7 +112,7 @@
         }
     }
 
-    #button {
+    #rules-button {
         display: grid;
         grid-template-columns: auto 40% auto;
         grid-template-areas: ". butt .";
@@ -125,7 +125,7 @@
             margin-bottom: 70px;
         }
 
-        #black-rec {
+        #rules-black-rec {
             grid-area: butt;
             height: 35px;
             width: 144px;
@@ -160,7 +160,7 @@
             }
         }
 
-        #black-rec:hover {
+        #rules-black-rec:hover {
             background-color: white;
             transition: all ease-in-out 0.25s;
             cursor: pointer;

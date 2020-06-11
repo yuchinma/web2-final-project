@@ -1,5 +1,5 @@
 #section-7 {
-    #title {
+    #section-7-title {
         font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
@@ -61,7 +61,7 @@
                     font-size: rem-calc(20);
                 }
 
-                #black-rec {
+                #contact-black-rec {
                     align-self: flex-end;
                 }
 
@@ -69,7 +69,7 @@
                     align-self: flex-end;
                 }
 
-                #black-rec:hover {
+                #contact-black-rec:hover {
                     background-color: white;
                     transition: all ease-in-out 0.25s;
                     cursor: pointer;
@@ -81,7 +81,7 @@
             }
         }
 
-        #indent {
+        #indent-3 {
             padding-left: 48px;
 
             @include md {
@@ -139,7 +139,7 @@
             }
         }
 
-        #black-rec {
+        #contact-black-rec {
             height: 30px;
             width: 91px;
             border-radius: 19px;

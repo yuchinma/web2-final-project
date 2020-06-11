@@ -819,14 +819,14 @@ footer h6 {
 #section-3 hr {
   background-color: white;
 }
-#section-3 #title {
+#section-3 #section-3-title {
   font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
   margin-bottom: 22px;
 }
 @media (min-width: 768px) {
-  #section-3 #title {
+  #section-3 #section-3-title {
     font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
@@ -834,7 +834,7 @@ footer h6 {
   }
 }
 @media (min-width: 992px) {
-  #section-3 #title {
+  #section-3 #section-3-title {
     font-size: 2.8125rem;
     padding-top: 75px;
     padding-left: 40px;
@@ -980,20 +980,20 @@ footer h6 {
     margin-top: 90px;
   }
 }
-#section-4 #title {
+#section-4 #section-4-title {
   font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
 }
 @media (min-width: 768px) {
-  #section-4 #title {
+  #section-4 #section-4-title {
     font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
   }
 }
 @media (min-width: 992px) {
-  #section-4 #title {
+  #section-4 #section-4-title {
     font-size: 2.8125rem;
     padding-top: 75px;
     padding-left: 40px;
@@ -1025,51 +1025,51 @@ footer h6 {
     font-size: 1.75rem;
   }
 }
-#section-4 #section-4-content #rules-container #space-1 {
-  margin-top: 25px;
-}
-@media (min-width: 768px) {
-  #section-4 #section-4-content #rules-container #space-1 {
-    margin-top: 35px;
-  }
-}
-#section-4 #section-4-content #rules-container #space-2 {
-  margin-top: 25px;
-}
-@media (min-width: 768px) {
-  #section-4 #section-4-content #rules-container #space-2 {
-    margin-top: 35px;
-  }
-}
-#section-4 #section-4-content #rules-container #space-3 {
-  margin-top: 25px;
-}
-@media (min-width: 768px) {
-  #section-4 #section-4-content #rules-container #space-3 {
-    margin-top: 35px;
-  }
-}
-#section-4 #section-4-content #rules-container #space-4 {
-  margin-top: 25px;
-}
-@media (min-width: 768px) {
-  #section-4 #section-4-content #rules-container #space-4 {
-    margin-top: 35px;
-  }
-}
-#section-4 #section-4-content #rules-container #space-5 {
-  margin-top: 25px;
-}
-@media (min-width: 768px) {
-  #section-4 #section-4-content #rules-container #space-5 {
-    margin-top: 35px;
-  }
-}
 #section-4 #section-4-content #rules-container #space-6 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
   #section-4 #section-4-content #rules-container #space-6 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-7 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-7 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-8 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-8 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-9 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-9 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-10 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-10 {
+    margin-top: 35px;
+  }
+}
+#section-4 #section-4-content #rules-container #space-11 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-content #rules-container #space-11 {
     margin-top: 35px;
   }
 }
@@ -1084,7 +1084,7 @@ footer h6 {
     grid-template-columns: 8% auto 8%;
   }
 }
-#section-4 #button {
+#section-4 #rules-button {
   display: grid;
   grid-template-columns: auto 40% auto;
   grid-template-areas: ". butt .";
@@ -1093,12 +1093,12 @@ footer h6 {
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
-  #section-4 #button {
+  #section-4 #rules-button {
     margin-top: 36px;
     margin-bottom: 70px;
   }
 }
-#section-4 #button #black-rec {
+#section-4 #rules-button #rules-black-rec {
   grid-area: butt;
   height: 35px;
   width: 144px;
@@ -1107,40 +1107,40 @@ footer h6 {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  #section-4 #button #black-rec {
+  #section-4 #rules-button #rules-black-rec {
     height: 57px;
     width: 215px;
   }
 }
 @media (min-width: 992px) {
-  #section-4 #button #black-rec {
+  #section-4 #rules-button #rules-black-rec {
     height: 71px;
     width: 267px;
   }
 }
-#section-4 #button #black-rec h6 {
+#section-4 #rules-button #rules-black-rec h6 {
   font-size: 0.875rem;
   text-align: center;
   line-height: 35px;
 }
 @media (min-width: 768px) {
-  #section-4 #button #black-rec h6 {
+  #section-4 #rules-button #rules-black-rec h6 {
     font-size: 1.4375rem;
     line-height: 57px;
   }
 }
 @media (min-width: 992px) {
-  #section-4 #button #black-rec h6 {
+  #section-4 #rules-button #rules-black-rec h6 {
     font-size: 1.75rem;
     line-height: 71px;
   }
 }
-#section-4 #button #black-rec:hover {
+#section-4 #rules-button #rules-black-rec:hover {
   background-color: white;
   transition: all ease-in-out 0.25s;
   cursor: pointer;
 }
-#section-4 #button #black-rec:hover h6 {
+#section-4 #rules-button #rules-black-rec:hover h6 {
   color: black;
 }
 @media (min-width: 768px) {
@@ -1160,14 +1160,14 @@ footer h6 {
   width: 100%;
 }
 
-#section-5 #title {
+#section-5 #section-5-title {
   font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
   margin-bottom: 26px;
 }
 @media (min-width: 768px) {
-  #section-5 #title {
+  #section-5 #section-5-title {
     font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
@@ -1175,7 +1175,7 @@ footer h6 {
   }
 }
 @media (min-width: 992px) {
-  #section-5 #title {
+  #section-5 #section-5-title {
     font-size: 2.8125rem;
   }
 }
@@ -1219,7 +1219,7 @@ footer h6 {
   #section-5 #section-5-content #section-5-gallery #gallery-8 {
     grid-area: g8;
   }
-  #section-5 #section-5-content #section-5-gallery #button {
+  #section-5 #section-5-content #section-5-gallery #gallery-button {
     grid-area: btn;
     display: flex;
     justify-content: center;
@@ -1240,19 +1240,19 @@ footer h6 {
 #section-5 #section-5-content img {
   width: 100%;
 }
-#section-5 #button {
+#section-5 #gallery-button {
   display: grid;
   grid-template-columns: auto 50% auto;
   grid-template-areas: ". butt .";
   text-align: center;
 }
 @media (min-width: 992px) {
-  #section-5 #button .block {
+  #section-5 #gallery-button .block {
     position: relative;
     top: -70px;
   }
 }
-#section-5 #button #black-rec {
+#section-5 #gallery-button #gallery-black-rec {
   grid-area: butt;
   height: 35px;
   width: 121px;
@@ -1261,40 +1261,40 @@ footer h6 {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  #section-5 #button #black-rec {
+  #section-5 #gallery-button #gallery-black-rec {
     height: 48px;
     width: 168px;
   }
 }
 @media (min-width: 992px) {
-  #section-5 #button #black-rec {
+  #section-5 #gallery-button #gallery-black-rec {
     height: 65px;
     width: 264px;
   }
 }
-#section-5 #button #black-rec h6 {
+#section-5 #gallery-button #gallery-black-rec h6 {
   font-size: 0.8125rem;
   text-align: center;
   line-height: 35px;
 }
 @media (min-width: 768px) {
-  #section-5 #button #black-rec h6 {
+  #section-5 #gallery-button #gallery-black-rec h6 {
     font-size: 1.0625rem;
     line-height: 48px;
   }
 }
 @media (min-width: 992px) {
-  #section-5 #button #black-rec h6 {
+  #section-5 #gallery-button #gallery-black-rec h6 {
     font-size: 1.5625rem;
     line-height: 65px;
   }
 }
-#section-5 #button #black-rec:hover {
+#section-5 #gallery-button #gallery-black-rec:hover {
   background-color: white;
   transition: all ease-in-out 0.25s;
   cursor: pointer;
 }
-#section-5 #button #black-rec:hover h6 {
+#section-5 #gallery-button #gallery-black-rec:hover h6 {
   color: black;
 }
 
@@ -1312,26 +1312,26 @@ footer h6 {
   }
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-title {
+  #section-6 #section-6-title-container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
   }
 }
-#section-6 #title {
+#section-6 #section-6-title {
   font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
 }
 @media (min-width: 768px) {
-  #section-6 #title {
+  #section-6 #section-6-title {
     font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
   }
 }
 @media (min-width: 992px) {
-  #section-6 #title {
+  #section-6 #section-6-title {
     font-size: 2.8125rem;
   }
 }
@@ -1356,7 +1356,7 @@ footer h6 {
   grid-template-columns: 27px auto 27px;
   grid-template-areas: ". section-6-content .";
 }
-#section-6 #section-6-content #indent {
+#section-6 #section-6-content #indent-2 {
   grid-area: section-6-content;
 }
 #section-6 #section-6-content #faq {
@@ -1378,51 +1378,51 @@ footer h6 {
     font-size: 1.75rem;
   }
 }
-#section-6 #section-6-content #faq #space-1 {
+#section-6 #section-6-content #faq #space-12 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-content #faq #space-1 {
+  #section-6 #section-6-content #faq #space-12 {
     margin-top: 35px;
   }
 }
-#section-6 #section-6-content #faq #space-2 {
+#section-6 #section-6-content #faq #space-13 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-content #faq #space-2 {
+  #section-6 #section-6-content #faq #space-13 {
     margin-top: 35px;
   }
 }
-#section-6 #section-6-content #faq #space-3 {
+#section-6 #section-6-content #faq #space-14 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-content #faq #space-3 {
+  #section-6 #section-6-content #faq #space-14 {
     margin-top: 35px;
   }
 }
-#section-6 #section-6-content #faq #space-4 {
+#section-6 #section-6-content #faq #space-15 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-content #faq #space-4 {
+  #section-6 #section-6-content #faq #space-15 {
     margin-top: 35px;
   }
 }
-#section-6 #section-6-content #faq #space-5 {
+#section-6 #section-6-content #faq #space-16 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-content #faq #space-5 {
+  #section-6 #section-6-content #faq #space-16 {
     margin-top: 35px;
   }
 }
-#section-6 #section-6-content #faq #space-6 {
+#section-6 #section-6-content #faq #space-17 {
   margin-top: 25px;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-content #faq #space-6 {
+  #section-6 #section-6-content #faq #space-17 {
     margin-top: 35px;
   }
 }
@@ -1479,20 +1479,20 @@ footer h6 {
   }
 }
 
-#section-7 #title {
+#section-7 #section-7-title {
   font-size: 1.375rem;
   padding-top: 25px;
   padding-left: 17px;
 }
 @media (min-width: 768px) {
-  #section-7 #title {
+  #section-7 #section-7-title {
     font-size: 2.375rem;
     padding-top: 55px;
     padding-left: 44px;
   }
 }
 @media (min-width: 992px) {
-  #section-7 #title {
+  #section-7 #section-7-title {
     font-size: 2.8125rem;
   }
 }
@@ -1543,30 +1543,30 @@ footer h6 {
     font-size: 1.25rem;
   }
 }
-#section-7 #section-7-container #section-7-content #section-7-contact #black-rec {
+#section-7 #section-7-container #section-7-content #section-7-contact #contact-black-rec {
   align-self: flex-end;
 }
 #section-7 #section-7-container #section-7-content #section-7-contact h6 {
   align-self: flex-end;
 }
-#section-7 #section-7-container #section-7-content #section-7-contact #black-rec:hover {
+#section-7 #section-7-container #section-7-content #section-7-contact #contact-black-rec:hover {
   background-color: white;
   transition: all ease-in-out 0.25s;
   cursor: pointer;
 }
-#section-7 #section-7-container #section-7-content #section-7-contact #black-rec:hover h6 {
+#section-7 #section-7-container #section-7-content #section-7-contact #contact-black-rec:hover h6 {
   color: black;
 }
-#section-7 #section-7-container #indent {
+#section-7 #section-7-container #indent-3 {
   padding-left: 48px;
 }
 @media (min-width: 768px) {
-  #section-7 #section-7-container #indent {
+  #section-7 #section-7-container #indent-3 {
     padding-left: 70px;
   }
 }
 @media (min-width: 992px) {
-  #section-7 #section-7-container #indent {
+  #section-7 #section-7-container #indent-3 {
     padding-left: 83px;
   }
 }
@@ -1616,7 +1616,7 @@ footer h6 {
     border-radius: 30px;
   }
 }
-#section-7 #section-7-container #black-rec {
+#section-7 #section-7-container #contact-black-rec {
   height: 30px;
   width: 91px;
   border-radius: 19px;
@@ -1625,26 +1625,26 @@ footer h6 {
   margin-bottom: 5px;
 }
 @media (min-width: 768px) {
-  #section-7 #section-7-container #black-rec {
+  #section-7 #section-7-container #contact-black-rec {
     height: 36px;
     width: 114px;
     margin-top: 27px;
     margin-bottom: 8px;
   }
 }
-#section-7 #section-7-container #black-rec h6 {
+#section-7 #section-7-container #contact-black-rec h6 {
   font-size: 0.9375rem;
   text-align: center;
   line-height: 30px;
 }
 @media (min-width: 768px) {
-  #section-7 #section-7-container #black-rec h6 {
+  #section-7 #section-7-container #contact-black-rec h6 {
     font-size: 1.25rem;
     line-height: 36px;
   }
 }
 @media (min-width: 992px) {
-  #section-7 #section-7-container #black-rec h6 {
+  #section-7 #section-7-container #contact-black-rec h6 {
     font-size: 1.375rem;
   }
 }

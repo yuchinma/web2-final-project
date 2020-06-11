@@ -1,5 +1,5 @@
 #section-5 {
-    #title {
+    #section-5-title {
         font-size: rem-calc(22);
         padding-top: 25px;
         padding-left: 17px;
@@ -67,7 +67,7 @@
                     grid-area: g8;
                 }
 
-                #button {
+                #gallery-button {
                     grid-area: btn;
                     display: flex;
                     justify-content: center;
@@ -95,7 +95,7 @@
         }
     }
 
-    #button {
+    #gallery-button {
         display: grid;
         grid-template-columns: auto 50% auto;
         grid-template-areas: ". butt .";
@@ -108,7 +108,7 @@
             }
         }
 
-        #black-rec {
+        #gallery-black-rec {
             grid-area: butt;
 
             height: 35px;
@@ -144,7 +144,7 @@
             }
         }
 
-        #black-rec:hover {
+        #gallery-black-rec:hover {
             background-color: white;
             transition: all ease-in-out 0.25s;
             cursor: pointer;
