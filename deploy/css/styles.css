@@ -627,7 +627,7 @@ header > div #burger-container i {
 header > div #nav-container {
   grid-area: navi;
   background-color: black;
-  display: block;
+  display: none;
   padding: 20px;
 }
 @media (min-width: 768px) {
@@ -638,6 +638,7 @@ header > div #nav-container {
 }
 @media (min-width: 992px) {
   header > div #nav-container {
+    display: block !important;
     top: 0;
   }
 }
@@ -1570,50 +1571,60 @@ footer h6 {
     padding-left: 83px;
   }
 }
-#section-7 #section-7-container .ellipse {
+#section-7 #section-7-container .ellipse input[type=text],
+#section-7 #section-7-container .ellipse select,
+#section-7 #section-7-container .ellipse textarea {
   height: 40px;
   width: 236px;
   border: 2px solid black;
   border-radius: 30px;
-  margin-bottom: 16.5px;
-}
-#section-7 #section-7-container .ellipse h6 {
-  padding-top: 6%;
+  background-color: transparent;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  margin-bottom: 16px;
   padding-left: 5%;
 }
 @media (min-width: 768px) {
-  #section-7 #section-7-container .ellipse h6 {
-    padding-top: 4%;
+  #section-7 #section-7-container .ellipse input[type=text],
+#section-7 #section-7-container .ellipse select,
+#section-7 #section-7-container .ellipse textarea {
+    height: 60px;
+    width: 556px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: transparent;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    margin-bottom: 18px;
     padding-left: 3%;
   }
 }
-@media (min-width: 768px) {
-  #section-7 #section-7-container .ellipse {
-    height: 60px;
-    width: 556px;
-  }
-}
-#section-7 #section-7-container #rounded-rec {
+#section-7 #section-7-container #rounded-rec input[type=text],
+#section-7 #section-7-container #rounded-rec select,
+#section-7 #section-7-container #rounded-rec textarea {
   height: 205px;
   width: 236px;
   border: 2px solid black;
   border-radius: 25px;
-}
-#section-7 #section-7-container #rounded-rec h6 {
+  background-color: transparent;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
   padding-top: 6%;
   padding-left: 5%;
 }
 @media (min-width: 768px) {
-  #section-7 #section-7-container #rounded-rec h6 {
-    padding-top: 4%;
-    padding-left: 3%;
-  }
-}
-@media (min-width: 768px) {
-  #section-7 #section-7-container #rounded-rec {
+  #section-7 #section-7-container #rounded-rec input[type=text],
+#section-7 #section-7-container #rounded-rec select,
+#section-7 #section-7-container #rounded-rec textarea {
     height: 290px;
     width: 556px;
+    border: 2px solid black;
     border-radius: 30px;
+    background-color: transparent;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    padding-top: 4%;
+    padding-left: 3%;
   }
 }
 #section-7 #section-7-container #contact-black-rec {
@@ -1647,6 +1658,9 @@ footer h6 {
   #section-7 #section-7-container #contact-black-rec h6 {
     font-size: 1.375rem;
   }
+}
+#section-7 #section-7-container #contact-black-rec a {
+  text-decoration: none;
 }
 #section-7 #section-7-container #social-media {
   width: 240px;

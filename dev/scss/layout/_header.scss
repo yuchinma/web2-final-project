@@ -137,7 +137,7 @@ header {
         #nav-container {
             grid-area: navi;
             background-color: black;
-            display: block;
+            display: none;
             padding: 20px;
 
             @include md {
@@ -146,6 +146,7 @@ header {
             }
 
             @include lg {
+                display: block !important;
                 top: 0;
             }
 
